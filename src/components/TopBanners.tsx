@@ -22,5 +22,6 @@ export const TopBanners = () => {
 	// Randomly select an item to display
 	let selectedItemIdx = Math.floor(Math.random() * items.length);
 
-	return <TopBanner items={[items[selectedItemIdx]]} />;
+	//return <TopBanner items={[items[selectedItemIdx]]} />;
+	return;
 };
