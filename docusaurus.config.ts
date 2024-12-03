@@ -4,8 +4,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
-	title: "Open WebUI",
-	tagline: "ChatGPT-Style WebUI for LLMs (Formerly Ollama WebUI)",
+	title: "Ultimate AI",
+	tagline: "Best of the Best Aggregate AI Service",
 	favicon: "img/favicon.png",
 
 	// Set the production url of your site here
@@ -16,7 +16,7 @@ const config: Config = {
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "spammenotinoz", // Usually your GitHub org/user name.
+	organizationName: "sUltimateAI-org", // Usually your GitHub org/user name.
 	projectName: "docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
@@ -45,7 +45,7 @@ const config: Config = {
 					routeBasePath: "/",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/open-webui/docs/blob/main",
+					editUrl: "https://github.com/UltimateAI-org/docs/blob/main",
 					exclude: ["**/tab-**/**"],
 				},
 				// blog: false,
@@ -67,7 +67,7 @@ const config: Config = {
 		// Replace with your project's social card
 		// image: "img/docusaurus-social-card.jpg",
 		navbar: {
-			title: "Open WebUI",
+			title: "Ultimate AI",
 			logo: {
 				src: "img/logo.png",
 				srcDark: "img/logo-dark.png",
@@ -93,17 +93,11 @@ const config: Config = {
 				//   position: "left",
 				// },
 				{
-					href: "https://github.com/open-webui/open-webui",
+					href: "https://UltimateAI.org",
 					position: "right",
 					className: "header-github-link",
 					"aria-label": "GitHub repository",
-				},
-				{
-					href: "https://discord.com/invite/5rJgQTnV4s",
-					position: "right",
-					className: "header-discord-link",
-					"aria-label": "Discord server",
-				},
+				}
 			],
 		},
 		footer: {
@@ -126,38 +120,7 @@ const config: Config = {
 						},
 					],
 				},
-				{
-					title: "Community",
-					items: [
-						{
-							label: "GitHub",
-							href: "https://github.com/open-webui/open-webui",
-						},
-						{
-							label: "Discord",
-							href: "https://discord.gg/5rJgQTnV4s",
-						},
-						{
-							label: "𝕏",
-							href: "https://x.com/OpenWebUI",
-						},
-					],
-				},
-				{
-					title: "More",
-					items: [
-						{
-							label: "Release Notes",
-							to: "https://github.com/open-webui/open-webui/blob/main/CHANGELOG.md",
-						},
-						{
-							label: "About",
-							to: "https://openwebui.com",
-						},
-					],
-				},
 			],
-			// copyright: `Copyright © ${new Date().getFullYear()} OpenWebUI`,
 		},
 		prism: {
 			theme: prismThemes.github,
