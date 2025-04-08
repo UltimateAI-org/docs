@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://docs.ultimateai.org/sitemap.xml

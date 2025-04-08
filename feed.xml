@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>UltimateAI</title>
+    <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
+    <link href="https://docs.ultimateai.org" />
+    <updated>2025-04-08T22:31:34+10:00</updated>
+    <author>
+        <name>Tim</name>
+    </author>
+    <id>https://docs.ultimateai.org</id>
+
+    <entry>
+        <title>MAIN</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/main.html"/>
+        <id>https://docs.ultimateai.org/main.html</id>
+
+        <updated>2025-04-08T22:16:20+10:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
