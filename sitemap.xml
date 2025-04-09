@@ -5,6 +5,14 @@
 <loc>https://docs.ultimateai.org/</loc>
 </url>
 <url>
+<loc>https://docs.ultimateai.org/agents/</loc>
+<lastmod>2025-04-09T13:57:18+10:00</lastmod>
+<image:image>
+<image:loc>https://docs.ultimateai.org/media/posts/9//Screenshot-2025-04-09-134546.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://docs.ultimateai.org/api-endpoint/</loc>
 <lastmod>2025-04-09T11:30:00+10:00</lastmod>
 <image:image>
@@ -38,7 +46,7 @@
 </url>
 <url>
 <loc>https://docs.ultimateai.org/knowledge-collections/</loc>
-<lastmod>2025-04-09T12:20:26+10:00</lastmod>
+<lastmod>2025-04-09T13:54:08+10:00</lastmod>
 <image:image>
 <image:loc>https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-113710.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -70,7 +78,7 @@
 </url>
 <url>
 <loc>https://docs.ultimateai.org/prompts/</loc>
-<lastmod>2025-04-09T13:14:34+10:00</lastmod>
+<lastmod>2025-04-09T13:56:48+10:00</lastmod>
 <image:image>
 <image:loc>https://docs.ultimateai.org/media/posts/8/Screenshot-2025-04-09-115022.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -83,6 +91,10 @@
 <image:loc>https://docs.ultimateai.org/media/posts/8/Screenshot-2025-04-09-124503-2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
+</url>
+<url>
+<loc>https://docs.ultimateai.org/prompts-system/</loc>
+<lastmod>2025-04-09T13:59:08+10:00</lastmod>
 </url>
 <url>
 <loc>https://docs.ultimateai.org/ultimate-ai/</loc>
