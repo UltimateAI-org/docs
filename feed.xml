@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-04-09T14:53:22+10:00</updated>
+    <updated>2025-04-09T15:09:34+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -143,12 +143,12 @@
         <updated>2025-04-09T13:50:20+10:00</updated>
             <summary>
                 <![CDATA[
-                    Via the "Knowledge Studio" you may create custom "PRIVATE" Agents that function as Chat Models and are also available via API and the Browser Extension. OPTIONAL: TIP: If you wish to SHARE an AGENT, by making it public, please contact support@ultimateai.org From the left side&hellip;
+                    Via the "Knowledge Studio" you may create custom "PRIVATE" Agents that function as Chat Models. The agents are also available via API and the Browser Extension. OPTIONAL: TIP: If you wish to SHARE an AGENT, by making it public, please contact support@ultimateai.org You will see&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Via the "Knowledge Studio" you may create custom "<strong>PRIVATE</strong>" Agents that function as Chat Models and are also available via API and the Browser Extension.</p>
+                <p>Via the "Knowledge Studio" you may create custom "<strong>PRIVATE</strong>" Agents that function as Chat Models. The agents are also available via API and the Browser Extension.</p>
 <p><strong>OPTIONAL</strong>:</p>
 <ul>
 <li>You may custom SYSTEM Prompts</li>
@@ -156,7 +156,20 @@
 </ul>
 <p><strong>TIP:</strong> If you wish to SHARE an AGENT, by making it public, please contact <a href="mailto:support@ultimateai.org">support@ultimateai.org</a></p>
 <h2>How to:</h2>
-<p>From the left side panel open "Knowledge Studio"</p>
+<ul>
+<li>From the left side panel open "Knowledge Studio"</li>
+<li>Select "Agents"</li>
+<li>On the far-right click "+" to create a new Agent.</li>
+</ul>
+<p>You will see the following screen, allowing you to configure the agent to your specifications;</p>
+<ul>
+<li>Agent Name</li>
+<li>Model Image Icon</li>
+<li>Base Model (existing base model, eg: "GPT-4o mini")</li>
+<li>Model Description</li>
+<li>Prompt Suggestions (not required, these are sample suggested prompts)</li>
+<li>Knowledge (select from existing knowledge saved in the Knowledge section of Design Studio)</li>
+</ul>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/9//Screenshot-2025-04-09-134546.png" alt="" width="1492" height="856" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-xs.png 640w ,https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-sm.png 768w ,https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-md.png 1024w ,https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-lg.png 1366w ,https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-xl.png 1600w ,https://docs.ultimateai.org/media/posts/9//responsive/Screenshot-2025-04-09-134546-2xl.png 1920w"></figure>
 <h2><strong>Tips on writing a good SYSTEM prompt.</strong></h2>
 <p>Think of system prompts as the backbone of your AI's behaviour and output. While user prompts focus on specific tasks, system prompts set the overall framework for how your AI solution operates across all interactions. </p>
