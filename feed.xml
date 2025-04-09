@@ -3,10 +3,45 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>1970-01-01T10:00:00+10:00</updated>
+    <updated>2025-04-09T10:39:30+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Flow Charts</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/flow-charts-2.html"/>
+        <id>https://docs.ultimateai.org/flow-charts-2.html</id>
+
+        <updated>2025-04-09T10:38:50+10:00</updated>
+            <summary>
+                <![CDATA[
+                    When requesting a Flow Chart, request a mermaid diagram to allow the LLM to display a graphic that you can download as an SVG file. TIP: Top right of code blocks and graphics has action items such as "download, reset view and copy to clickboard"
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>When requesting a Flow Chart, request a <strong>mermaid diagram</strong> to allow the LLM to display a graphic that you can download as an SVG file.</p>
+<p>TIP: Top right of code blocks and graphics has action items such as "download, reset view and copy to clickboard"</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/4/Screenshot-2025-04-09-103602.png" alt="" width="1181" height="1072" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xs.png 640w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-sm.png 768w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-md.png 1024w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-lg.png 1366w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xl.png 1600w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Generating Images</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/flow-charts.html"/>
+        <id>https://docs.ultimateai.org/flow-charts.html</id>
+        <media:content url="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-103107.png" medium="image" />
+
+        <updated>2025-04-09T10:32:52+10:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
 </feed>

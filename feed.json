@@ -5,9 +5,37 @@
     "home_page_url": "https://docs.ultimateai.org",
     "feed_url": "https://docs.ultimateai.org/feed.json",
     "user_comment": "",
+    "icon": "https://docs.ultimateai.org/media/website/favicon.ico",
     "author": {
         "name": "Tim"
     },
     "items": [
+        {
+            "id": "https://docs.ultimateai.org/flow-charts-2.html",
+            "url": "https://docs.ultimateai.org/flow-charts-2.html",
+            "title": "Flow Charts",
+            "summary": "When requesting a Flow Chart, request a mermaid diagram to allow the LLM to display a graphic that you can download as an SVG file. TIP: Top right of code blocks and graphics has action items such as \"download, reset view and copy to clickboard\"",
+            "content_html": "<p>When requesting a Flow Chart, request a <strong>mermaid diagram</strong> to allow the LLM to display a graphic that you can download as an SVG file.</p>\n<p>TIP: Top right of code blocks and graphics has action items such as \"download, reset view and copy to clickboard\"</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/4/Screenshot-2025-04-09-103602.png\" alt=\"\" width=\"1181\" height=\"1072\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xs.png 640w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-sm.png 768w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-md.png 1024w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-lg.png 1366w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xl.png 1600w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-2xl.png 1920w\"></figure>",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-09T10:38:50+10:00",
+            "date_modified": "2025-04-09T10:38:50+10:00"
+        },
+        {
+            "id": "https://docs.ultimateai.org/flow-charts.html",
+            "url": "https://docs.ultimateai.org/flow-charts.html",
+            "title": "Generating Images",
+            "image": "https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-103107.png",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-09T10:32:52+10:00",
+            "date_modified": "2025-04-09T10:39:30+10:00"
+        }
     ]
 }
