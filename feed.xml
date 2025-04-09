@@ -3,12 +3,44 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-04-09T15:09:34+10:00</updated>
+    <updated>2025-04-09T15:45:47+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Obsidian</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/obsidian/"/>
+        <id>https://docs.ultimateai.org/obsidian/</id>
+
+        <updated>2025-04-09T15:45:47+10:00</updated>
+            <summary>
+                <![CDATA[
+                    To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: https://youtu.be/WmxQMMLIIwo. To get started:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: <a href="https://youtu.be/WmxQMMLIIwo">https://youtu.be/WmxQMMLIIwo</a>.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube-nocookie.com/embed/WmxQMMLIIwo." allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2>Obsidian Integration Instructions</h2>
+<p>To get started:  <a href="https://obsidianaitools.com/how-to-setup-obsidian-ai-tools">https://obsidianaitools.com/how-to-setup-obsidian-ai-tools</a></p>
+<ol>
+<li>Log into your account</li>
+<li>Install the Custom Frames Plugin</li>
+<li>Add your new Obsidian AI Tools Custom Frame</li>
+<li>(Optional) Install Commander plugin and add a Shortcut for Obsidian AI Tools</li>
+<li>Save your AI Obsidian Workspace</li>
+</ol>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>App Installation</title>
         <author>
