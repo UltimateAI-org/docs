@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-04-09T15:52:13+10:00</updated>
+    <updated>2025-04-09T15:58:06+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -29,16 +29,7 @@
 <p>To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: <a href="https://youtu.be/WmxQMMLIIwo">https://youtu.be/WmxQMMLIIwo</a>.</p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube-nocookie.com/embed/WmxQMMLIIwo" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2>Obsidian Integration Instructions</h2>
-<p>To get started:  <a href="https://obsidianaitools.com/how-to-setup-obsidian-ai-tools">https://obsidianaitools.com/how-to-setup-obsidian-ai-tools</a></p>
-<ol>
-<li>Log into your account</li>
-<li>Install the Custom Frames Plugin</li>
-<li>Add your new Obsidian AI Tools Custom Frame</li>
-<li>(Optional) Install Commander plugin and add a Shortcut for Obsidian AI Tools</li>
-<li>Save your AI Obsidian Workspace</li>
-</ol>
-<p> </p>
-<p> </p>
+<p>To get started visit <a href="https://obsidianaitools.com/how-to-setup-obsidian-ai-tools">https://obsidianaitools.com/how-to-setup-obsidian-ai-tools</a></p>
             ]]>
         </content>
     </entry>
@@ -408,6 +399,106 @@
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/6/Screenshot-2025-04-09-112335.png" alt="" width="1077" height="715" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xs.png 640w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-sm.png 768w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-md.png 1024w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-lg.png 1366w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xl.png 1600w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-2xl.png 1920w"></figure>
 <p>Further documentation is available here;</p>
 <p><a href="https://chat.ultimateai.org/apidocs">API Documentation</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Web Search</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/web-search/"/>
+        <id>https://docs.ultimateai.org/web-search/</id>
+
+        <updated>2025-04-09T11:14:53+10:00</updated>
+            <summary>
+                <![CDATA[
+                    AI Models (Large Language Models) are trained, as such their knowledge will have a specific cut-off date. TIP: Chat models are not self-aware and may return Knowledge Cut-Off dates. If you would like to include the latest data \ information in your query there are&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>AI Models (Large Language Models) are trained, as such their knowledge will have a specific cut-off date.<br><em>TIP: Chat models are not self-aware and may return Knowledge Cut-Off dates.</em></p>
+<p>If you would like to include the latest data \ information in your query there are two main approaches;</p>
+<ul>
+<li>Select an (On-Line) model</li>
+<li>Engauge (Web) mode, for an agent based approach</li>
+</ul>
+<h2>On-Line Models</h2>
+<p>On-line models provide rapid responses using cached but up-to-date information from the web.</p>
+<figure class="post__image">Select an (On-Line) model, from the model selection list.<br><em>TIP: use the search/filter</em><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-110756.png" alt="" width="645" height="290" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-2xl.png 1920w"></figure>
+<h2>Engauge Web Mode for Agentless Search</h2>
+<p>Web mode works with all Chat Models, and will use an agent based approach to add additional knowledge.  The web agent will use AI to produce a series of web searches, the agent will then visit the web pages, extracting the required information.<br>The agent based approach is slower, but more detailed.</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-111159.png" alt="" width="962" height="297" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-2xl.png 1920w"></figure>
+<p>You may expand the searched sites, and references, as shown below.</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-111329.png" alt="" width="1207" height="1436" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-2xl.png 1920w"></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Flow Charts</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/flow-charts-2/"/>
+        <id>https://docs.ultimateai.org/flow-charts-2/</id>
+
+        <updated>2025-04-09T10:38:50+10:00</updated>
+            <summary>
+                <![CDATA[
+                    When requesting a Flow Chart, request a mermaid diagram to allow the LLM to display a graphic that you can download as an SVG file. TIP: Top right of code blocks and graphics has action items such as "download, reset view and copy to clickboard"
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>When requesting a Flow Chart, request a <strong>mermaid diagram</strong> to allow the LLM to display a graphic that you can download as an SVG file.</p>
+<p>TIP: Top right of code blocks and graphics has action items such as "download, reset view and copy to clickboard"</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/4/Screenshot-2025-04-09-103602.png" alt="" width="1181" height="1072" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xs.png 640w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-sm.png 768w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-md.png 1024w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-lg.png 1366w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xl.png 1600w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Generating Images</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/flow-charts/"/>
+        <id>https://docs.ultimateai.org/flow-charts/</id>
+
+        <updated>2025-04-09T10:32:52+10:00</updated>
+            <summary>
+                <![CDATA[
+                    There are two main methods of generating images within the Chat Service To create generate an image with Flux Professional v1.1, follow these steps; At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation" Change the Model to "Gemini 2.0&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>There are two main methods of generating images within the Chat Service</p>
+<ul>
+<li>Flux Professional v1.1</li>
+<li>Directly via Chat Models that Support Images
+<ul>
+<li>At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation"</li>
+</ul>
+</li>
+</ul>
+<h2>Flux Professional v1.1</h2>
+<p>To create generate an image with Flux Professional v1.1, follow these steps;</p>
+<ul>
+<li>Select ANY Model</li>
+<li>Click the "Image" icon in the chat prompt area.  It will turn Yellow to indicate it is active.</li>
+<li>Click "Send" to request an image.  An image will be returned quickly.<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-104646.png" alt="" width="1045" height="392" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-2xl.png 1920w"></figure></li>
+</ul>
+<h2>Directly via the Chat Models</h2>
+<p>At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation"</p>
+<ul>
+<li>Change the Model to "Gemini 2.0 Flash Image Generation"</li>
+<li>Ensure the Image Icon used earlier is NOT yellow.  When yellow the prompt is passed through to Flux Professional.  Here we want the Chat Model to Create the Image.</li>
+<li>You may upload \ paste an image to edit, such as "change the background to city streets" or request an image to be generated.</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105542.png" alt="" width="921" height="319" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-2xl.png 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105640.png" alt="" width="1219" height="1275" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-2xl.png 1920w"></figure>
             ]]>
         </content>
     </entry>
