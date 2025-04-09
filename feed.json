@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://docs.ultimateai.org/installing-the-application/",
+            "url": "https://docs.ultimateai.org/installing-the-application/",
+            "title": "App Installation",
+            "summary": "The Chat Application is available as a Progressive Web Application (PWA), for Windows, Android and iOS. The installation of the PWA application is the same process as adding a website to your iOS home screen, except it will install as an Application and not a&hellip;",
+            "content_html": "<p>The Chat Application is available as a Progressive Web Application (PWA), for Windows, Android and iOS.</p>\n<h2>iOS App Installation</h2>\n<p><br>The installation of the PWA application is the same process as adding a website to your iOS home screen, except it will install as an Application and not a web-link,<br><br>To add a website to your iOS home screen, follow these steps:</p>\n<ol class=\"marker:text-textOff list-decimal\">\n<li>\n<p class=\"my-0\"><strong>Open Safari</strong>: Navigate to <a href=\"http://chat.ultimateai.org\">https://chat.ultimateai.org</a> using the Safari browser on your iPhone or iPad.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Tap the Share Icon</strong>: Look for the share icon (a box with an arrow coming out of it) at the bottom of the screen and tap it.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Scroll Down and Select \"Add to Home Screen\"</strong>: In the share menu, scroll down until you see \"Add to Home Screen\" and tap it.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Edit the Name (Optional)</strong>: You can edit the name that will appear under the shortcut icon on your home screen.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Tap Add</strong>: Once you're satisfied with the name, tap \"Add\" to add the shortcut to your home screen.</p>\n</li>\n</ol>\n<h2>Windows App Installation</h2>\n<ol class=\"marker:text-textOff list-disc\">\n<li>Launch Edge and navigate to <a href=\"http://chat.ultimateai.org\">https://chat.ultimateai.org</a> <strong>(NOT SAFE MODE)</strong></li>\n<li><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\">Look for the </span><strong style=\"font-family: var(--editor-font-family); font-size: inherit;\">\"App available\"</strong><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\"> icon in the address bar (if the site supports PWA). Click it and select </span><strong style=\"font-family: var(--editor-font-family); font-size: inherit;\">Install</strong><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\">, or:</span></li>\n<li>Click the <strong>three-dot menu</strong> (Settings and More) in the top-right corner.</li>\n<li>Select <strong>Apps</strong> &gt; <strong>Install this site as an app</strong>.</li>\n</ol>",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-09T14:31:47+10:00",
+            "date_modified": "2025-04-09T14:53:22+10:00"
+        },
+        {
             "id": "https://docs.ultimateai.org/prompts-system/",
             "url": "https://docs.ultimateai.org/prompts-system/",
             "title": "Prompts (System)",
