@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://docs.ultimateai.org/youtube-transcript/",
+            "url": "https://docs.ultimateai.org/youtube-transcript/",
+            "title": "YouTube Transcripts and Adding Webpage",
+            "summary": "How to incorporate You Tube Transcripts into the chat. Obtain the URL for the YouTube video or Web-Site to include Start the prompt with #&lt;URL&gt; Click on the LINK that Pops-Up to include the YouTube Transcription \\ Webpage Short delay while the video transcription \\&hellip;",
+            "content_html": "<p>How to incorporate You Tube Transcripts into the chat.</p>\n<ol>\n<li>Obtain the URL for the YouTube video or Web-Site to include</li>\n<li>Start the prompt with #&lt;URL&gt;</li>\n<li>Click on the LINK that Pops-Up to include the YouTube Transcription \\ Webpage<br><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/13/Screenshot-2025-04-21-215708.png\" alt=\"\" width=\"619\" height=\"303\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xs.png 640w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-sm.png 768w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-md.png 1024w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-lg.png 1366w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xl.png 1600w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-2xl.png 1920w\"></figure></li>\n<li>Short delay while the video transcription \\ web-site is added.</li>\n</ol>",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-21T21:43:14+10:00",
+            "date_modified": "2025-04-21T21:59:39+10:00"
+        },
+        {
             "id": "https://docs.ultimateai.org/obsidian/",
             "url": "https://docs.ultimateai.org/obsidian/",
             "title": "Obsidian",
@@ -135,20 +149,6 @@
             ],
             "date_published": "2025-04-09T10:38:50+10:00",
             "date_modified": "2025-04-09T15:57:51+10:00"
-        },
-        {
-            "id": "https://docs.ultimateai.org/flow-charts/",
-            "url": "https://docs.ultimateai.org/flow-charts/",
-            "title": "Generating Images",
-            "summary": "There are two main methods of generating images within the Chat Service To create generate an image with Flux Professional v1.1, follow these steps; At the time of writing this feature is limited to \"Gemini 2.0 Flash Image Generation\" Change the Model to \"Gemini 2.0&hellip;",
-            "content_html": "<p>There are two main methods of generating images within the Chat Service</p>\n<ul>\n<li>Flux Professional v1.1</li>\n<li>Directly via Chat Models that Support Images\n<ul>\n<li>At the time of writing this feature is limited to \"Gemini 2.0 Flash Image Generation\"</li>\n</ul>\n</li>\n</ul>\n<h2>Flux Professional v1.1</h2>\n<p>To create generate an image with Flux Professional v1.1, follow these steps;</p>\n<ul>\n<li>Select ANY Model</li>\n<li>Click the \"Image\" icon in the chat prompt area.  It will turn Yellow to indicate it is active.</li>\n<li>Click \"Send\" to request an image.  An image will be returned quickly.<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-104646.png\" alt=\"\" width=\"1045\" height=\"392\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-2xl.png 1920w\"></figure></li>\n</ul>\n<h2>Directly via the Chat Models</h2>\n<p>At the time of writing this feature is limited to \"Gemini 2.0 Flash Image Generation\"</p>\n<ul>\n<li>Change the Model to \"Gemini 2.0 Flash Image Generation\"</li>\n<li>Ensure the Image Icon used earlier is NOT yellow.  When yellow the prompt is passed through to Flux Professional.  Here we want the Chat Model to Create the Image.</li>\n<li>You may upload \\ paste an image to edit, such as \"change the background to city streets\" or request an image to be generated.</li>\n</ul>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105542.png\" alt=\"\" width=\"921\" height=\"319\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-2xl.png 1920w\"></figure>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105640.png\" alt=\"\" width=\"1219\" height=\"1275\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-2xl.png 1920w\"></figure>",
-            "author": {
-                "name": "Tim"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-04-09T10:32:52+10:00",
-            "date_modified": "2025-04-09T15:57:31+10:00"
         }
     ]
 }

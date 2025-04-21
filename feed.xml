@@ -3,12 +3,38 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-04-09T15:58:06+10:00</updated>
+    <updated>2025-04-21T21:59:39+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>YouTube Transcripts and Adding Webpage</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/youtube-transcript/"/>
+        <id>https://docs.ultimateai.org/youtube-transcript/</id>
+
+        <updated>2025-04-21T21:43:14+10:00</updated>
+            <summary>
+                <![CDATA[
+                    How to incorporate You Tube Transcripts into the chat. Obtain the URL for the YouTube video or Web-Site to include Start the prompt with #&lt;URL&gt; Click on the LINK that Pops-Up to include the YouTube Transcription \ Webpage Short delay while the video transcription \&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>How to incorporate You Tube Transcripts into the chat.</p>
+<ol>
+<li>Obtain the URL for the YouTube video or Web-Site to include</li>
+<li>Start the prompt with #&lt;URL&gt;</li>
+<li>Click on the LINK that Pops-Up to include the YouTube Transcription \ Webpage<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/13/Screenshot-2025-04-21-215708.png" alt="" width="619" height="303" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xs.png 640w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-sm.png 768w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-md.png 1024w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-lg.png 1366w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xl.png 1600w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-2xl.png 1920w"></figure></li>
+<li>Short delay while the video transcription \ web-site is added.</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Obsidian</title>
         <author>
@@ -455,50 +481,6 @@
                 <p>When requesting a Flow Chart, request a <strong>mermaid diagram</strong> to allow the LLM to display a graphic that you can download as an SVG file.</p>
 <p>TIP: Top right of code blocks and graphics has action items such as "download, reset view and copy to clickboard"</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/4/Screenshot-2025-04-09-103602.png" alt="" width="1181" height="1072" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xs.png 640w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-sm.png 768w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-md.png 1024w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-lg.png 1366w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xl.png 1600w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-2xl.png 1920w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Generating Images</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/flow-charts/"/>
-        <id>https://docs.ultimateai.org/flow-charts/</id>
-
-        <updated>2025-04-09T10:32:52+10:00</updated>
-            <summary>
-                <![CDATA[
-                    There are two main methods of generating images within the Chat Service To create generate an image with Flux Professional v1.1, follow these steps; At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation" Change the Model to "Gemini 2.0&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>There are two main methods of generating images within the Chat Service</p>
-<ul>
-<li>Flux Professional v1.1</li>
-<li>Directly via Chat Models that Support Images
-<ul>
-<li>At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation"</li>
-</ul>
-</li>
-</ul>
-<h2>Flux Professional v1.1</h2>
-<p>To create generate an image with Flux Professional v1.1, follow these steps;</p>
-<ul>
-<li>Select ANY Model</li>
-<li>Click the "Image" icon in the chat prompt area.  It will turn Yellow to indicate it is active.</li>
-<li>Click "Send" to request an image.  An image will be returned quickly.<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-104646.png" alt="" width="1045" height="392" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-104646-2xl.png 1920w"></figure></li>
-</ul>
-<h2>Directly via the Chat Models</h2>
-<p>At the time of writing this feature is limited to "Gemini 2.0 Flash Image Generation"</p>
-<ul>
-<li>Change the Model to "Gemini 2.0 Flash Image Generation"</li>
-<li>Ensure the Image Icon used earlier is NOT yellow.  When yellow the prompt is passed through to Flux Professional.  Here we want the Chat Model to Create the Image.</li>
-<li>You may upload \ paste an image to edit, such as "change the background to city streets" or request an image to be generated.</li>
-</ul>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105542.png" alt="" width="921" height="319" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105542-2xl.png 1920w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/3/Screenshot-2025-04-09-105640.png" alt="" width="1219" height="1275" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xs.png 640w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-sm.png 768w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-md.png 1024w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-lg.png 1366w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-xl.png 1600w ,https://docs.ultimateai.org/media/posts/3/responsive/Screenshot-2025-04-09-105640-2xl.png 1920w"></figure>
             ]]>
         </content>
     </entry>
