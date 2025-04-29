@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://docs.ultimateai.org/obsidian-ai-tools-explained-complete-guide/",
+            "url": "https://docs.ultimateai.org/obsidian-ai-tools-explained-complete-guide/",
+            "title": "Obsidian AI Tools Explained (Complete Guide)",
+            "summary": "Obsidian AI Tools Explained (Complete Guide) Following-on from the Getting Started guide, Paul has published, a Complete Guide. Be sure to check it out, and Like and Subscribe to Paul's channel to watch more Obsidian content.",
+            "content_html": "<h2 class=\"align-center\"><figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/Obsidian-FavIcon.png\" alt=\"\" width=\"36\" height=\"36\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-xs.png 640w ,file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-sm.png 768w ,file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-md.png 1024w ,file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-lg.png 1366w ,file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-xl.png 1600w ,file:///N:/OneDrive/Documents/Publii/sites/ultimateai/input/media/posts/12/responsive/Obsidian-FavIcon-2xl.png 1920w\"></figure> Obsidian AI Tools Explained (Complete Guide)</h2>\n<p>Following-on from the Getting Started guide, Paul has published, a Complete Guide.<br>Be sure to check it out, and Like and Subscribe to Paul's channel to watch more Obsidian content.</p>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"560\" height=\"314\" src=\"https://www.youtube-nocookie.com/embed/YQMaVvrhVLE\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe><br><br></figure>",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-29T21:22:00+10:00",
+            "date_modified": "2025-04-29T21:26:51+10:00"
+        },
+        {
             "id": "https://docs.ultimateai.org/youtube-transcript/",
             "url": "https://docs.ultimateai.org/youtube-transcript/",
             "title": "YouTube Transcripts and Adding Webpage",
@@ -135,20 +149,6 @@
             ],
             "date_published": "2025-04-09T11:14:53+10:00",
             "date_modified": "2025-04-09T15:58:06+10:00"
-        },
-        {
-            "id": "https://docs.ultimateai.org/flow-charts-2/",
-            "url": "https://docs.ultimateai.org/flow-charts-2/",
-            "title": "Flow Charts",
-            "summary": "When requesting a Flow Chart, request a mermaid diagram to allow the LLM to display a graphic that you can download as an SVG file. TIP: Top right of code blocks and graphics has action items such as \"download, reset view and copy to clickboard\"",
-            "content_html": "<p>When requesting a Flow Chart, request a <strong>mermaid diagram</strong> to allow the LLM to display a graphic that you can download as an SVG file.</p>\n<p>TIP: Top right of code blocks and graphics has action items such as \"download, reset view and copy to clickboard\"</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/4/Screenshot-2025-04-09-103602.png\" alt=\"\" width=\"1181\" height=\"1072\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xs.png 640w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-sm.png 768w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-md.png 1024w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-lg.png 1366w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-xl.png 1600w ,https://docs.ultimateai.org/media/posts/4/responsive/Screenshot-2025-04-09-103602-2xl.png 1920w\"></figure>",
-            "author": {
-                "name": "Tim"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-04-09T10:38:50+10:00",
-            "date_modified": "2025-04-09T15:57:51+10:00"
         }
     ]
 }
