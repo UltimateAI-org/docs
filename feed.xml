@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-01T13:58:06+10:00</updated>
+    <updated>2025-05-01T14:59:13+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,13 +20,13 @@
         <updated>2025-05-01T13:37:56+10:00</updated>
             <summary>
                 <![CDATA[
-                    The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available; Right-Click on the Extension icon to modify settings. Here you can define the actions of the&hellip;
+                    The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available from v3.01; (Submitted Pending Store Approval) Right-Click on the Extension icon to modify settings. Here you&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service.</p>
-<p>The following key features are available;</p>
+<p>The following key features are available from v3.01; (<span style="color: #3598db;"><em>Submitted Pending Store Approval</em></span>)</p>
 <ul>
 <li>A customisable AI Actions Bar when Text is Selected\Highlighted</li>
 <li>A simple quick to use (no login required) multi-turn aware chat interface</li>
