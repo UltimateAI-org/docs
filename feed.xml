@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-01T14:59:13+10:00</updated>
+    <updated>2025-05-02T09:27:51+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,13 +20,13 @@
         <updated>2025-05-01T13:37:56+10:00</updated>
             <summary>
                 <![CDATA[
-                    The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available from v3.01; (Submitted Pending Store Approval) Right-Click on the Extension icon to modify settings. Here you&hellip;
+                    The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available from v3.2; (Submitted Pending Store Approval) Right-Click on the Extension icon to modify settings. Here you&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service.</p>
-<p>The following key features are available from v3.01; (<span style="color: #3598db;"><em>Submitted Pending Store Approval</em></span>)</p>
+<p>The following key features are available from v3.2; (<span style="color: #3598db;"><em>Submitted Pending Store Approval</em></span>)</p>
 <ul>
 <li>A customisable AI Actions Bar when Text is Selected\Highlighted</li>
 <li>A simple quick to use (no login required) multi-turn aware chat interface</li>
@@ -36,6 +36,8 @@
 <li>Codeblock Displays</li>
 <li>Image Generation and Editing (<em>requires selecting a model that supports this, eg: "<strong>Gemini Flash Image Generation"</strong> or "<strong>ChatGPT: GPT Image 1</strong>", </em>)</li>
 <li>All models\agents are published at the endpoint (eg: If you develop an Agent in the UltimateAI knowledge studio, it is available to YOU via the Extension)</li>
+<li>Theme Selection (System / Light  / Dark)</li>
+<li>Text Size Selection (Small / Medium /  Large)</li>
 </ul>
 <h5><strong>Installation via the Chrome and Edge Stores (FREE) :</strong></h5>
 <ul>
@@ -69,11 +71,23 @@ The AI action bar has three modes
 <li><strong>Dark</strong> (Dark Mode)</li>
 </ul>
 </li>
+</ul>
+<ul>
+<li>
+<h5><strong>Text Size</strong></h5>
+<ul>
+<li><strong>Small</strong></li>
+<li><span style="color: #02192b;"><strong>Medium</strong></span></li>
+<li><span style="color: #02192b;"><strong>Large</strong></span></li>
+</ul>
+</li>
+</ul>
+<ul>
 <li>
 <h5><strong>AT Actions and HotKeys</strong></h5>
 </li>
 </ul>
-<p>Here you can define the actions of the AI Hover action icons.  Hot the HOTKEY only works when the AI Action bar is in shortcut mode.<br>Use {text} to represent the highlighted\selected text.<br><em>eg: provide a witty reply to {text} for social media</em></p>
+<p>Here you can define the actions of the AI Hover action icons.  Hot the HOTKEY only works when the AI Action bar is in shortcut mode.<br>Use <strong>{text}</strong> to represent the highlighted\selected text.<br><em>eg: provide a witty reply to <strong>{text}</strong> for social media</em></p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/15//Screenshot-2025-05-01-130858.png" alt="" width="1016" height="1888" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-xs.png 640w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-sm.png 768w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-md.png 1024w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-lg.png 1366w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-xl.png 1600w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-2xl.png 1920w"></figure>
             ]]>
         </content>
