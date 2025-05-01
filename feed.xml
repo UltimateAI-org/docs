@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-01T13:43:32+10:00</updated>
+    <updated>2025-05-01T13:58:06+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -28,13 +28,16 @@
                 <p>The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service.</p>
 <p>The following key features are available;</p>
 <ul>
-<li>Latext rendering for Mathematics and Scientific equations\forumula</li>
+<li>A customisable AI Actions Bar when Text is Selected\Highlighted</li>
+<li>A simple quick to use (no login required) multi-turn aware chat interface</li>
+<li>Handy "Copy to Clipboard" icons</li>
+<li>Latext rendering for Mathematics and Scientific equations\formula</li>
 <li>Pasting of Text and Images</li>
 <li>Codeblock Displays</li>
-<li>Image Generation and Editing (<em>requires selecting a model that supports this, eg: "<strong>Gemini Flash Image Generation"</strong> or <strong>"ChatGPT: GPT Image 1"</strong>, </em>)</li>
+<li>Image Generation and Editing (<em>requires selecting a model that supports this, eg: "<strong>Gemini Flash Image Generation"</strong> or "<strong>ChatGPT: GPT Image 1</strong>", </em>)</li>
 <li>All models\agents are published at the endpoint (eg: If you develop an Agent in the UltimateAI knowledge studio, it is available to YOU via the Extension)</li>
 </ul>
-<h5><strong>Installation Methods:</strong></h5>
+<h5><strong>Installation via the Chrome and Edge Stores (FREE) :</strong></h5>
 <ul>
 <li><a href="https://chromewebstore.google.com/detail/ultimateaiorg-ai-assistan/dpodbcchhlfinbaobicdgeeaibglaheo?hl=en-GB&amp;utm_source=ext_sidebar">Chrome</a> </li>
 <li><a href="https://microsoftedge.microsoft.com/addons/detail/kojaighhnghemlgmbmmlogakhmgdpmmg" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
@@ -51,7 +54,7 @@
 <li><strong>API Key</strong>: You obtain this from settings -&gt; account from the main chat interface.</li>
 <li>
 <h5><strong>AI Action</strong></h5>
-There are three modes
+The AI action bar has three modes
 <ul>
 <li><strong>Auto</strong> (whenever text is highlighted the AI actions appear)</li>
 <li><strong>Shortcut</strong> (highlight text, then alt+u to trigger the AI action bar)</li>
@@ -62,8 +65,8 @@ There are three modes
 <h5><strong>Themes</strong></h5>
 <ul>
 <li><strong>System</strong> (The Plug-in follows the computers active theme)</li>
-<li>Light (Light Mode)</li>
-<li>Dark (Dark Mode)</li>
+<li><strong>Light</strong> (Light Mode)</li>
+<li><strong>Dark</strong> (Dark Mode)</li>
 </ul>
 </li>
 <li>
