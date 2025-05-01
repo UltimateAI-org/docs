@@ -3,12 +3,78 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-04-29T21:33:32+10:00</updated>
+    <updated>2025-05-01T13:38:52+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>AI Browser Extension</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/ai-browser-extension/"/>
+        <id>https://docs.ultimateai.org/ai-browser-extension/</id>
+
+        <updated>2025-05-01T13:37:56+10:00</updated>
+            <summary>
+                <![CDATA[
+                    The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available; Right-Click on the Extension icon to modify settings. Here you can define the actions of the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service.</p>
+<p>The following key features are available;</p>
+<ul>
+<li>Latext rendering for Mathematics and Scientific equations\forumula</li>
+<li>Pasting of Text and Images</li>
+<li>Codeblock Displays</li>
+<li>Image Generation and Editing (<em>requires selecting a model that supports this, eg: "<strong>Gemini Flash Image Generation"</strong> or <strong>"ChatGPT: GPT Image 1"</strong>, </em>)</li>
+<li>All models\agents are published at the endpoint (eg: If you develop an Agent in the UltimateAI knowledge studio, it is available to YOU via the Extension)</li>
+</ul>
+<h5><strong>Installation Methods:</strong></h5>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/ultimateaiorg-ai-assistan/dpodbcchhlfinbaobicdgeeaibglaheo?hl=en-GB&amp;utm_source=ext_sidebar">Chrome</a> </li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/kojaighhnghemlgmbmmlogakhmgdpmmg" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
+</ul>
+<h5><strong>Privacy:</strong></h5>
+<ul>
+<li>Conversations are not saved on the server</li>
+<li>Conversations are saved on your local device, you may clear them at any time.</li>
+</ul>
+<h5>Extension Options:</h5>
+<p>Right-Click on the Extension icon to modify settings.</p>
+<ul>
+<li><strong>OpenAI Compatible Base URL</strong>: Subscribers can leave this as <a href="https://chat.ultimateai.org/v1">https://chat.ultimateai.org/v1</a>.  However if you are not a member you can use any OpenAI Compatible API endpoint.</li>
+<li><strong>API Key</strong>: You obtain this from settings -&gt; account from the main chat interface.</li>
+<li>
+<h5><strong>AI Action</strong></h5>
+There are three modes
+<ul>
+<li><strong>Auto</strong> (whenever text is highlighted the AI actions appear)</li>
+<li><strong>Shortcut</strong> (highlight text, then alt+u to trigger the AI action bar)</li>
+<li><strong>Disabled</strong> (AI action bar is disabled, you may still use the right-click context menu)</li>
+</ul>
+</li>
+<li>
+<h5><strong>Themes</strong></h5>
+<ul>
+<li><strong>System</strong> (The Plug-in follows the computers active theme)</li>
+<li>Light (Light Mode)</li>
+<li>Dark (Dark Mode)</li>
+</ul>
+</li>
+<li>
+<h5><strong>AT Actions and HotKeys</strong></h5>
+</li>
+</ul>
+<p>Here you can define the actions of the AI Hover action icons.  Hot the HOTKEY only works when the AI Action bar is in shortcut mode.<br>Use {text} to represent the highlighted\selected text.<br><em>eg: provide a witty reply to {text} for social media</em></p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/15//Screenshot-2025-05-01-130858.png" alt="" width="1016" height="1888" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-xs.png 640w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-sm.png 768w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-md.png 1024w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-lg.png 1366w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-xl.png 1600w ,https://docs.ultimateai.org/media/posts/15//responsive/Screenshot-2025-05-01-130858-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Obsidian AI Tools Explained (Complete Guide)</title>
         <author>
@@ -447,40 +513,6 @@
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/6/Screenshot-2025-04-09-112335.png" alt="" width="1077" height="715" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xs.png 640w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-sm.png 768w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-md.png 1024w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-lg.png 1366w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xl.png 1600w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-2xl.png 1920w"></figure>
 <p>Further documentation is available here;</p>
 <p><a href="https://chat.ultimateai.org/apidocs">API Documentation</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Web Search</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/web-search/"/>
-        <id>https://docs.ultimateai.org/web-search/</id>
-
-        <updated>2025-04-09T11:14:53+10:00</updated>
-            <summary>
-                <![CDATA[
-                    AI Models (Large Language Models) are trained, as such their knowledge will have a specific cut-off date. TIP: Chat models are not self-aware and may return Knowledge Cut-Off dates. If you would like to include the latest data \ information in your query there are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>AI Models (Large Language Models) are trained, as such their knowledge will have a specific cut-off date.<br><em>TIP: Chat models are not self-aware and may return Knowledge Cut-Off dates.</em></p>
-<p>If you would like to include the latest data \ information in your query there are two main approaches;</p>
-<ul>
-<li>Select an (On-Line) model</li>
-<li>Engauge (Web) mode, for an agent based approach</li>
-</ul>
-<h2>On-Line Models</h2>
-<p>On-line models provide rapid responses using cached but up-to-date information from the web.</p>
-<figure class="post__image">Select an (On-Line) model, from the model selection list.<br><em>TIP: use the search/filter</em><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-110756.png" alt="" width="645" height="290" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-110756-2xl.png 1920w"></figure>
-<h2>Engauge Web Mode for Agentless Search</h2>
-<p>Web mode works with all Chat Models, and will use an agent based approach to add additional knowledge.  The web agent will use AI to produce a series of web searches, the agent will then visit the web pages, extracting the required information.<br>The agent based approach is slower, but more detailed.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-111159.png" alt="" width="962" height="297" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111159-2xl.png 1920w"></figure>
-<p>You may expand the searched sites, and references, as shown below.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/5/Screenshot-2025-04-09-111329.png" alt="" width="1207" height="1436" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-xs.png 640w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-sm.png 768w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-md.png 1024w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-lg.png 1366w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-xl.png 1600w ,https://docs.ultimateai.org/media/posts/5/responsive/Screenshot-2025-04-09-111329-2xl.png 1920w"></figure>
-<p> </p>
             ]]>
         </content>
     </entry>
