@@ -3,12 +3,34 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-02T09:27:51+10:00</updated>
+    <updated>2025-05-03T21:02:43+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Lost \ Change Password</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/lost-change-password/"/>
+        <id>https://docs.ultimateai.org/lost-change-password/</id>
+
+        <updated>2025-05-03T21:02:15+10:00</updated>
+            <summary>
+                <![CDATA[
+                    For user Management Options such as Forgotten and Lost Passwords visit https://user.ultimateai.org And follow the instructions.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>For user Management Options such as Forgotten and Lost Passwords</p>
+<p>visit <a href="https://user.ultimateai.org">https://user.ultimateai.org</a></p>
+<p>And follow the instructions.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>AI Browser Extension</title>
         <author>
@@ -505,31 +527,6 @@ The AI action bar has three modes
 <p>Once you see the "File(s) added successfully you  can use your knowledge collection.<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115514.png" alt="" width="1439" height="243" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-2xl.png 1920w"></figure>
 <p>At any time within the chat window press # to select your knowledge with no need to wait for upload delays.</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115609.png" alt="" width="945" height="285" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-2xl.png 1920w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>API Endpoint</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/api-endpoint/"/>
-        <id>https://docs.ultimateai.org/api-endpoint/</id>
-
-        <updated>2025-04-09T11:30:00+10:00</updated>
-            <summary>
-                <![CDATA[
-                    While I recommend our Chat Interface for Maximum compatibility, you also have access to an API Aggregation service that provides all Chat Model via an OpenAI compatible API endpoint. That means that any application that supports OpenAI API and allows setting a custom base URL&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>While I recommend our Chat Interface for Maximum compatibility, you also have access to an API Aggregation service that provides all Chat Model via an OpenAI compatible API endpoint.</p>
-<p>That means that any application that supports OpenAI API and allows setting a custom base URL should be supported.</p>
-<p>Your API key is available from the "Account" within "Settings".</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/6/Screenshot-2025-04-09-112335.png" alt="" width="1077" height="715" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xs.png 640w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-sm.png 768w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-md.png 1024w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-lg.png 1366w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xl.png 1600w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-2xl.png 1920w"></figure>
-<p>Further documentation is available here;</p>
-<p><a href="https://chat.ultimateai.org/apidocs">API Documentation</a></p>
             ]]>
         </content>
     </entry>
