@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-14T21:27:08+10:00</updated>
+    <updated>2025-05-14T21:34:20+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -74,13 +74,16 @@
 <h4>Install your MCP Server Locally</h4>
 <figure class="post__image"><code>npm install -g @modelcontextprotocol/server-github</code><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-203858.png" alt="" width="1099" height="149" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-2xl.png 1920w"></figure>
 <p><strong>Start the MCP Server</strong></p>
-<p><span style="color: #02192b;">In this example we are installing the github MCP server.  This server requires a GIBHUB_PERSONAL_ACCESS_TOKEN be set via an environment variable,</span></p>
+<p>This MCP server requires a GITHUB personal access token be set prior to use.  You obtain this from Github and you control the level of access the tool will have.</p>
 <p><code>set GITHUB_PERSONAL_ACCESS_TOKEN=your_token_here</code></p>
-<p><strong>Start the MCP Server</strong></p>
+<p> </p>
 <p><code>eg; uvx mcpo --port <strong>&lt;port&gt;</strong> -- npx <strong>&lt;mcp comand&gt; --api-key &lt;madeupapikey&gt;</strong></code></p>
 <p>Example to start the git-hub MCP server and listen locally on port 8000 (port must be free)</p>
 <p><code>uvx mcpo --port 8000 -- npx <strong>@modelcontextprotocol/server-github sk-thisisatest</strong></code></p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-205546.png" alt="" width="1113" height="346" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-2xl.png 1920w"></figure>
+<blockquote>
+<h5>Note: you need to leave this window open or the tool stops</h5>
+</blockquote>
 <h5>Using your MCP Server via UltimateAI</h5>
 <ul>
 <li>Login to Chat</li>
