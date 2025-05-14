@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-14T21:34:20+10:00</updated>
+    <updated>2025-05-14T21:53:53+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,23 +20,23 @@
         <updated>2025-05-14T21:27:08+10:00</updated>
             <summary>
                 <![CDATA[
-                    Model Context Protocol (MCP) Is a developing protocol intended to expand and enhance the use of AI tools. There are already well over 2,000 MCP servers and growing. MCP Server Directory: 4290+ updated daily | PulseMCP Ultimate AI supports both hosted MCP server and client&hellip;
+                    Model Context Protocol (MCP) Is a developing protocol intended to expand and enhance the use of AI tools. There are already well over 2,000 MCP servers and growing. The underlying AI model must support tools and milage may vary, they work best with the newer&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h5>Model Context Protocol (MCP)</h5>
-<p>Is a developing protocol intended to expand and enhance the use of AI tools.  There are already well over 2,000 MCP servers and growing.</p>
+<p>Is a developing protocol intended to expand and enhance the use of AI tools.  There are already well over 2,000 MCP servers and growing.  The underlying AI model must support tools and milage may vary, they work best with the newer Chat Models.</p>
 <p><a href="https://www.pulsemcp.com/servers">MCP Server Directory: 4290+ updated daily | PulseMCP</a></p>
 <p><strong>Ultimate AI</strong> supports both <strong>hosted</strong> MCP server and <strong>client</strong> side MCP servers.</p>
 <ul>
-<li><strong>Hosted</strong> (mail <a href="mailto:support@ultimateai.org">support@ultimateai.org</a> and we install the server for you).<br>
+<li><strong>Hosted</strong> (mail <a href="mailto:support@ultimateai.org">support@ultimateai.org</a> and we install the server for you). We will install servers that can run with generic credentials\paid or unpaid.<br>
 <ul>
 <li>Currently installed hosted MCP servers
 <ul>
 <li>Pupeteer</li>
-<li>Tripadvisor</li>
-<li>Unsplash</li>
+<li>Tripadvisor (paid plan)</li>
+<li>Unsplash (development)</li>
 </ul>
 </li>
 <li>Hosted Tools are activated by the + icon and must be enabled before use<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-211820.png" alt="" width="734" height="265" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-2xl.png 1920w"></figure></li>
@@ -54,6 +54,7 @@
 <li>Python (v3,10 or later)</li>
 <li>UV (installed via Python PIP)</li>
 <li>MCP Server (installed via NPM is recommended)</li>
+<li>Shift + F5 to refresh Chat, ensuring you are experiencing the latest User Interface.</li>
 </ul>
 <h1>Installation Walkthrough</h1>
 <h5 dir="auto">Install Node.js (v18.x or later)</h5>
