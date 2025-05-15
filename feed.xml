@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-14T21:53:53+10:00</updated>
+    <updated>2025-05-15T11:01:00+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -72,16 +72,59 @@
 <h5>Install UV</h5>
 <p><code>pip install uv</code></p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-204449.png" alt="" width="1108" height="179" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-204449-2xl.png 1920w"></figure>
-<h4>Install your MCP Server Locally</h4>
+<h1>That completes the pre-requisites<br><br></h1>
+<p>Installing your first MCP server.</p>
+<h1>Example1: (@modelcontextprotocol/server-github)</h1>
 <figure class="post__image"><code>npm install -g @modelcontextprotocol/server-github</code><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-203858.png" alt="" width="1099" height="149" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-203858-2xl.png 1920w"></figure>
 <p><strong>Start the MCP Server</strong></p>
 <p>This MCP server requires a GITHUB personal access token be set prior to use.  You obtain this from Github and you control the level of access the tool will have.</p>
 <p><code>set GITHUB_PERSONAL_ACCESS_TOKEN=your_token_here</code></p>
-<p> </p>
 <p><code>eg; uvx mcpo --port <strong>&lt;port&gt;</strong> -- npx <strong>&lt;mcp comand&gt; --api-key &lt;madeupapikey&gt;</strong></code></p>
 <p>Example to start the git-hub MCP server and listen locally on port 8000 (port must be free)</p>
-<p><code>uvx mcpo --port 8000 -- npx <strong>@modelcontextprotocol/server-github sk-thisisatest</strong></code></p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-205546.png" alt="" width="1113" height="346" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-2xl.png 1920w"></figure>
+<p><code>uvx mcpo --port 8001 --api-key sk-thisisatest -- npx @modelcontextprotocol/server-github</code></p>
+<figure class="post__image"><code></code><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-205546.png" alt="" width="1113" height="346" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205546-2xl.png 1920w"></figure>
+<blockquote>
+<h5>Note: you need to leave this window open or the tool stops</h5>
+</blockquote>
+<h5>Using your MCP Server via UltimateAI</h5>
+<ul>
+<li>Login to Chat</li>
+<li>Settings -&gt; Tools -&gt; Add Connection</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-205918.png" alt="" width="810" height="327" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-205918-2xl.png 1920w"></figure>
+<ul>
+<li>In the URL put http://localhost:&lt;port&gt; you set earlier.  In this example I used 8000</li>
+<li>Then set the API key you set earlier.</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-210123.png" alt="" width="687" height="418" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210123-2xl.png 1920w"></figure>
+<ul>
+<li>Save then exit settings</li>
+<li>Start a new conversation and you should see a SPANNER ICON showing 1 available tool.<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-210445.png" alt="" width="696" height="217" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210445-2xl.png 1920w"></figure></li>
+<li>Then your conversation will automatically use the tool.  start by asking the tool what features the tool supports.</li>
+<li>MCP is a new standard, as such not all Models Use Tools well.</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-210810.png" alt="" width="1139" height="691" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-210810-2xl.png 1920w"></figure>
+<p> </p>
+<h1>** BELOW IS A WIP **</h1>
+<h1>Example2: (@modelcontextprotocol/server-github)</h1>
+<p>Additional pre-requisites</p>
+<ul>
+<li>Install and configure the Local RESTAPI Community Plugin
+<ul>
+<li>Enable the Non-Encrypted HTTP server (traffic is local)</li>
+<li>Record your API key will need it later</li>
+</ul>
+</li>
+</ul>
+<p>Install the Obsidian MCP servser</p>
+<p><code>npm install -g obsidian-mcp-server</code></p>
+<p>Set the required environment variables<br><span class="token token property">set OBSIDIAN_API_KEY=</span><span class="token token">your_obsidian_api_key_here</span></p>
+<p><span class="token token property">set OBSIDIAN_PROTOCOL=</span><span class="token token">http</span></p>
+<p><span class="token token property">set OBSIDIAN_HOST=localhost</span></p>
+<p><span class="token token property">set OBSIDIAN_PORT=</span><span class="token token">27123</span></p>
+<p><strong>Start the MCP Server</strong></p>
+<p><code>uvx mcpo --port 8001 --api-key sk-thisisatest -- npx obsidian-mcp-server</code></p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-15-103210.png" alt="" width="2010" height="512" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-15-103210-2xl.png 1920w"></figure>
 <blockquote>
 <h5>Note: you need to leave this window open or the tool stops</h5>
 </blockquote>
