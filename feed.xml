@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-05-15T14:57:25+10:00</updated>
+    <updated>2025-05-16T13:25:52+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -36,10 +36,11 @@
 <ul>
 <li>Pupeteer</li>
 <li>Tripadvisor (paid plan)</li>
-<li>Unsplash (development)</li>
+<li>Unsplash</li>
+<li>Github</li>
 </ul>
 </li>
-<li>Hosted Tools are activated by the + icon and must be enabled before use<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-14-211820.png" alt="" width="734" height="265" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-14-211820-2xl.png 1920w"></figure></li>
+<li>Hosted Tools are activated by the + icon and must be enabled before use<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/18/Screenshot-2025-05-16-131937.png" alt="" width="1301" height="981" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-xs.png 640w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-sm.png 768w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-md.png 1024w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-lg.png 1366w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-xl.png 1600w ,https://docs.ultimateai.org/media/posts/18/responsive/Screenshot-2025-05-16-131937-2xl.png 1920w"></figure></li>
 </ul>
 </li>
 <li><strong>Client</strong> side MCP Servers
