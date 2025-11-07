@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-09-05T07:59:56+10:00</updated>
+    <updated>2025-11-07T21:20:01+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://docs.ultimateai.org/ai-browser-extension/</id>
 
         <updated>2025-05-01T13:37:56+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     The AI Brower Extension is designed to be a simple chat interface and NOT as a direct replacement for the primary Chat Service. The following key features are available from v3.2; (Submitted Pending Store Approval) Right-Click on the Extension icon to modify settings. Here you&hellip;
                 ]]>
@@ -101,7 +101,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/obsidian-ai-tools-explained-complete-guide/</id>
 
         <updated>2025-04-29T21:22:00+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Obsidian AI Tools Explained (Complete Guide) Following-on from the Getting Started guide, Paul has published, a Complete Guide. Be sure to check it out, and Like and Subscribe to Paul's channel to watch more Obsidian content.
                 ]]>
@@ -123,9 +123,9 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/youtube-transcript/</id>
 
         <updated>2025-04-21T21:43:14+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
-                    How to incorporate You Tube Transcripts into the chat. Obtain the URL for the YouTube video or Web-Site to include Start the prompt with #&lt;URL&gt; Click on the LINK that Pops-Up to include the YouTube Transcription \ Webpage Short delay while the video transcription \&hellip;
+                    How to incorporate You Tube Transcripts into the chat. Obtain the URL for the YouTube video or Web-Site to include Select "+" then "Attach Webpage Short delay while the video transcription \ web-site is added.
                 ]]>
             </summary>
         <content type="html">
@@ -133,8 +133,8 @@ The AI action bar has three modes
                 <p>How to incorporate You Tube Transcripts into the chat.</p>
 <ol>
 <li>Obtain the URL for the YouTube video or Web-Site to include</li>
-<li>Start the prompt with #&lt;URL&gt;</li>
-<li>Click on the LINK that Pops-Up to include the YouTube Transcription \ Webpage<br><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/13/Screenshot-2025-04-21-215708.png" alt="" width="619" height="303" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xs.png 640w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-sm.png 768w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-md.png 1024w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-lg.png 1366w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-xl.png 1600w ,https://docs.ultimateai.org/media/posts/13/responsive/Screenshot-2025-04-21-215708-2xl.png 1920w"></figure></li>
+<li>Select "+" then "Attach Webpage</li>
+<li><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/13/WebPage.png" alt="" width="302" height="196" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/13/responsive/WebPage-xs.png 640w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-sm.png 768w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-md.png 1024w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-lg.png 1366w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-xl.png 1600w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-2xl.png 1920w"></figure></li>
 <li>Short delay while the video transcription \ web-site is added.</li>
 </ol>
             ]]>
@@ -149,7 +149,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/obsidian/</id>
 
         <updated>2025-04-09T15:45:47+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Obsidian (ObsidianAITools) To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: https://youtu.be/WmxQMMLIIwo. To&hellip;
                 ]]>
@@ -173,36 +173,17 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/installing-the-application/</id>
 
         <updated>2025-04-09T14:31:47+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
-                    Android App Installation The Android Application may be downloaded here HERE The Chat Application is available as a Progressive Web Application (PWA), for Windows and iOS. The installation of the PWA application is the same process as adding a website to your iOS home screen,&hellip;
+                    Android App Installation The Android Application may be downloaded here HERE The iOS Application may be downloaded here HERE Windows App Installation Launch Edge and navigate to https://chat.ultimateai.org (NOT SAFE MODE) Look for the "App available" icon in the address bar (if the site supports PWA).
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2>Android App Installation</h2>
 <p>The Android Application may be downloaded here<br><a href="https://ultimateai.org/android">HERE</a></p>
-<h2>PWA App Installation</h2>
-<p><br>The Chat Application is available as a Progressive Web Application (PWA), for Windows and iOS.</p>
 <h2>iOS App Installation</h2>
-<p><br>The installation of the PWA application is the same process as adding a website to your iOS home screen, except it will install as an Application and not a web-link,<br><br>To add a website to your iOS home screen, follow these steps:</p>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Open Safari</strong>: Navigate to <a href="http://chat.ultimateai.org">https://chat.ultimateai.org</a> using the Safari browser on your iPhone or iPad.</p>
-</li>
-<li>
-<p class="my-0"><strong>Tap the Share Icon</strong>: Look for the share icon (a box with an arrow coming out of it) at the bottom of the screen and tap it.</p>
-</li>
-<li>
-<p class="my-0"><strong>Scroll Down and Select "Add to Home Screen"</strong>: In the share menu, scroll down until you see "Add to Home Screen" and tap it.</p>
-</li>
-<li>
-<p class="my-0"><strong>Edit the Name (Optional)</strong>: You can edit the name that will appear under the shortcut icon on your home screen.</p>
-</li>
-<li>
-<p class="my-0"><strong>Tap Add</strong>: Once you're satisfied with the name, tap "Add" to add the shortcut to your home screen.</p>
-</li>
-</ol>
+<p>The iOS Application may be downloaded here<br><a href="https://ultimateai.org/ios">HERE</a></p>
 <h2>Windows App Installation</h2>
 <ol class="marker:text-textOff list-disc">
 <li>Launch Edge and navigate to <a href="http://chat.ultimateai.org">https://chat.ultimateai.org</a> <strong>(NOT SAFE MODE)</strong></li>
@@ -222,7 +203,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/prompts-system/</id>
 
         <updated>2025-04-09T13:59:08+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     ** ADVANCED USERS ONLY ** System prompt (aka: Custom Instructions) can be applied as follows; Think of system prompts as the backbone of your AI's behaviour and output. While user prompts focus on specific tasks, system prompts set the overall framework for how your AI&hellip;
                 ]]>
@@ -304,7 +285,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/agents/</id>
 
         <updated>2025-04-09T13:50:20+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Via the "Knowledge Studio" you may create custom "PRIVATE" Agents that function as Chat Models. The agents are also available via API and the Browser Extension. OPTIONAL: TIP: If you wish to SHARE an AGENT, by making it public, please contact support@ultimateai.org You will see&hellip;
                 ]]>
@@ -402,7 +383,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/prompts/</id>
 
         <updated>2025-04-09T12:53:16+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     You can save your own PRIVATE prompts to be quickly accessed via "/" during the chat prompt. Note: Although PRIVATE, as always avoid uploading any sensitive or personal information, when using the cloud. You will also see "Global" prompts as saved by myself. How to;&hellip;
                 ]]>
@@ -492,7 +473,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/knowledge-collections/</id>
 
         <updated>2025-04-09T12:20:26+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     You can upload attachments to any chat, however for frequently accessed knowledge you can upload knowledge (attachments\text) for easier assess. Knowledge can then be loaded quickly into any chat via the # command and selecting the knowledge collection. Knowledge can also be added to your&hellip;
                 ]]>
@@ -525,7 +506,7 @@ The AI action bar has three modes
         <id>https://docs.ultimateai.org/api-endpoint/</id>
 
         <updated>2025-04-09T11:30:00+10:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     While I recommend our Chat Interface for Maximum compatibility, you also have access to an API Aggregation service that provides all Chat Models, including (Embeddings and Voice) via an OpenAI compatible API endpoint. That means that any application that supports OpenAI API and allows setting&hellip;
                 ]]>
