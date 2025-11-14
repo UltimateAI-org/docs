@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://docs.ultimateai.org/obsidian-web-clipper/",
+            "url": "https://docs.ultimateai.org/obsidian-web-clipper/",
+            "title": "Obsidian Web Clipper",
+            "summary": "Obsidian Web Clipper is a convenient way to import chats into Obsidian. {{contentHtml | replace:(\"/&lt;section&gt;&lt;h2&gt;.*?&lt;\\/h2&gt;/g\":\"&lt;section&gt;\", \"&lt;p&gt;&lt;span&gt;\":\"★BOT said&lt;p&gt;&lt;span&gt;\", \"/&lt;p&gt;\\S*&lt;/p&gt;\\s*&lt;pre/g\":\"&lt;pre\") | markdown | blockquote | replace:(\"&gt; ★BOT said\\n&gt; \\n&gt; \":\"\\n&gt; [!bot]- \", \"&gt; ★User:★\\n&gt;\":\"\\n&gt; [!user]- Me\")}} Optional (Set a Template Trigger), eg: https://.obsidianaitools.com, https://*.ultimateai.org, ect.. for the&hellip;",
+            "content_html": "<p>Obsidian Web Clipper is a convenient way to import chats into Obsidian.</p>\n<ol>\n<li>Download and <a href=\"https://obsidian.md/clipper\" target=\"_blank\" rel=\"noopener noreferrer\">Install Obsidian Web Clipper</a></li>\n<li>Once installed create a new Template and give it a name, eg: \"ObsidianAITools\"</li>\n<li>Scroll Down and in the \"Note Content\" section add the following template provided by **JLDiaz**</li>\n</ol>\n<p>{{contentHtml | replace:(\"/&lt;section&gt;&lt;h2&gt;.*?&lt;\\/h2&gt;/g\":\"&lt;section&gt;\", \"&lt;p&gt;&lt;span&gt;\":\"★BOT said&lt;p&gt;&lt;span&gt;\", \"/&lt;p&gt;\\S*&lt;/p&gt;\\s*&lt;pre/g\":\"&lt;pre\") | markdown | blockquote | replace:(\"&gt; ★BOT said\\n&gt; \\n&gt; \":\"\\n&gt; [!bot]- \", \"&gt; ★User:★\\n&gt;\":\"\\n&gt; [!user]- Me\")}}<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/19/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme.jpeg\" alt=\"\" width=\"1694\" height=\"503\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-xs.jpeg 640w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-sm.jpeg 768w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-md.jpeg 1024w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-lg.jpeg 1366w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-xl.jpeg 1600w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212436_eigdjhmgnaaeaonimdklocfekkaanfme-2xl.jpeg 1920w\"></figure>\n<figure class=\"post__image\">Optional (Set a Template Trigger), eg: https://<em>.obsidianaitools.com, https://*</em>.ultimateai.org, ect.. for the service you use.<img  src=\"https://docs.ultimateai.org/media/posts/19/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme.jpeg\" alt=\"\" width=\"1693\" height=\"350\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-xs.jpeg 640w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-sm.jpeg 768w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-md.jpeg 1024w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-lg.jpeg 1366w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-xl.jpeg 1600w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot_14-11-2025_212923_eigdjhmgnaaeaonimdklocfekkaanfme-2xl.jpeg 1920w\"><br><br>To Use WebClipper, Open the Sidebar, Refresh and Import and your Obsidian Note should appear formatted as follows;<br><img loading=\"lazy\" class=\"post__image\" src=\"https://docs.ultimateai.org/media/posts/19/Screenshot-2025-11-14-213418.png\" alt=\"\" width=\"1462\" height=\"1295\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-xs.png 640w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-sm.png 768w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-md.png 1024w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-lg.png 1366w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-xl.png 1600w ,https://docs.ultimateai.org/media/posts/19/responsive/Screenshot-2025-11-14-213418-2xl.png 1920w\"></figure>",
+            "author": {
+                "name": "Tim"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-14T21:37:44+11:00",
+            "date_modified": "2025-11-14T21:37:44+11:00"
+        },
+        {
             "id": "https://docs.ultimateai.org/ai-browser-extension/",
             "url": "https://docs.ultimateai.org/ai-browser-extension/",
             "title": "AI Browser Extension",
@@ -135,20 +149,6 @@
             ],
             "date_published": "2025-04-09T12:20:26+10:00",
             "date_modified": "2025-04-09T13:54:08+10:00"
-        },
-        {
-            "id": "https://docs.ultimateai.org/api-endpoint/",
-            "url": "https://docs.ultimateai.org/api-endpoint/",
-            "title": "API Endpoint",
-            "summary": "While I recommend our Chat Interface for Maximum compatibility, you also have access to an API Aggregation service that provides all Chat Models, including (Embeddings and Voice) via an OpenAI compatible API endpoint. That means that any application that supports OpenAI API and allows setting&hellip;",
-            "content_html": "<p>While I recommend our Chat Interface for Maximum compatibility, you also have access to an API Aggregation service that provides all Chat Models, including (Embeddings and Voice) via an OpenAI compatible API endpoint.</p>\n<p>That means that any application that supports OpenAI API and allows setting a custom base URL should be supported.</p>\n<p>Your API key is available from the \"Account\" within \"Settings\".</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://docs.ultimateai.org/media/posts/6/Screenshot-2025-04-09-112335.png\" alt=\"\" width=\"1077\" height=\"715\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xs.png 640w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-sm.png 768w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-md.png 1024w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-lg.png 1366w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-xl.png 1600w ,https://docs.ultimateai.org/media/posts/6/responsive/Screenshot-2025-04-09-112335-2xl.png 1920w\"></figure>\n<p>Further documentation is available here;</p>\n<p><a href=\"https://chat.ultimateai.org/apidocs\">API Documentation</a></p>",
-            "author": {
-                "name": "Tim"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-04-09T11:30:00+10:00",
-            "date_modified": "2025-11-07T21:22:09+11:00"
         }
     ]
 }
