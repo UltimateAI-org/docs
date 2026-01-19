@@ -3,12 +3,49 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2025-11-14T21:37:44+11:00</updated>
+    <updated>2026-01-19T21:31:30+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Coding</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/coding/"/>
+        <id>https://docs.ultimateai.org/coding/</id>
+
+        <updated>2026-01-19T21:23:54+11:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Coding via the API is permitted ONLY with Minimax-M2.1 You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model. Claude Code Extension for VS Code Refer to the Claude Code documentation for installation. Edit or create&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Coding via the API is permitted ONLY with Minimax-M2.1<br><br>You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model.</h2>
+<h2>Claude Code Extension for VS Code</h2>
+<ol>
+<li>Refer to the <a href="https://docs.claude.com/en/docs/claude-code/setup"><strong>Claude Code documentation</strong></a> for installation.</li>
+<li>Edit or create the Claude Code configuration file located at ~/.claude/settings.json. <br>update as shown below, replace &lt;your API key&gt; with your API Key without &lt;&gt;;</li>
+</ol>
+<p><code>{</code></p>
+<p><code>  "env": {</code></p>
+<p><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code></p>
+<p><code>    "ANTHROPIC_BASE_URL": <a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>,</code></p>
+<p><code>    "API_TIMEOUT_MS": "3000000"</code></p>
+<p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Save the config and run claude.exe.</p>
+<h2>Claude Code Extension for VS Code</h2>
+<ul>
+<li>Install Claude Code as shown earlier.</li>
+<li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
+</ul>
+<p>That's it.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Obsidian Web Clipper</title>
         <author>
@@ -488,39 +525,6 @@ The AI action bar has three modes
 </ul>
 </li>
 </ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Knowledge Collections</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/knowledge-collections/"/>
-        <id>https://docs.ultimateai.org/knowledge-collections/</id>
-
-        <updated>2025-04-09T12:20:26+10:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    You can upload attachments to any chat, however for frequently accessed knowledge you can upload knowledge (attachments\text) for easier assess. Knowledge can then be loaded quickly into any chat via the # command and selecting the knowledge collection. Knowledge can also be added to your&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>You can upload attachments to any chat, however for frequently accessed knowledge you can upload knowledge (attachments\text) for easier assess.</p>
-<p>Knowledge can then be loaded quickly into any chat via the # command and selecting the knowledge collection.   Knowledge can also be added to your Own Agents.</p>
-<p><em><strong>Note:</strong> Although PRIVATE, as always avoid uploading any sensitive or personal information, when using the cloud.</em></p>
-<p><strong>How to guide:</strong></p>
-<p>Open the Knowledge Studio from the Navigation Bar;</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-113710.png" alt="" width="1430" height="174" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-113710-2xl.png 1920w"></figure>
-<p>Select the Knowledge Tab, then select the + on the far right to create a new collection.<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screen-Recording-2025-04-09-114722.mp4" alt=""></figure>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115022.png" alt="" width="1738" height="229" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115022-2xl.png 1920w"></figure>
-<figure class="post__image">Complete what you are working on and the purpose (Cosmetic Only), then click "Create Knowledge"<br><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115217.png" alt="" width="1063" height="568" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115217-2xl.png 1920w"></figure>
-<p>Then click the + on the far right to add documents/directory/text into the collection.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115400.png" alt="" width="1448" height="375" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115400-2xl.png 1920w"></figure>
-<p>Once you see the "File(s) added successfully you  can use your knowledge collection.<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115514.png" alt="" width="1439" height="243" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115514-2xl.png 1920w"></figure>
-<p>At any time within the chat window press # to select your knowledge with no need to wait for upload delays.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/7/Screenshot-2025-04-09-115609.png" alt="" width="945" height="285" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-xs.png 640w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-sm.png 768w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-md.png 1024w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-lg.png 1366w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-xl.png 1600w ,https://docs.ultimateai.org/media/posts/7/responsive/Screenshot-2025-04-09-115609-2xl.png 1920w"></figure>
             ]]>
         </content>
     </entry>
