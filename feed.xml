@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-19T22:02:56+11:00</updated>
+    <updated>2026-01-19T22:12:10+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -42,9 +42,7 @@
 <li>Install Claude Code as shown earlier.</li>
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
-<p>That's it.<br><br>Download Open Code here <a href="https://opencode.ai/download">OpenCode | Download</a></p>
-<p>Run the installer and complete the installation.<br>Edit the following file <br>"%userprofile%\.local\share\opencode\auth.json"<br><br>{<br>  "providers": {<br>    "my-custom": {<br>      "npm": "@ai-sdk/openai-compatible",<br>      "name": "UltimateAI",<br>      "options": {<br>        "baseURL": "https://chat.ultimateai.org/v1",</p>
-<p>       "apikey" : "&lt;your api key&gt;"<br>      },<br>      "models": {<br>        "my-model": {<br>          "name": "MiniMax-M2.1"<br>        }<br>      }<br>    }<br>  }<br>}<br><br><br><br></p>
+<p>That's it.<br><br><br><br></p>
             ]]>
         </content>
     </entry>
