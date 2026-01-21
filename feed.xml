@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-21T18:12:15+11:00</updated>
+    <updated>2026-01-21T18:22:03+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2026-01-19T21:23:54+11:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Coding via the API is permitted ONLY with Minimax-M2.1 You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model. Install Claude Code Refer to the Claude Code documentation for installation. Edit or create the Claude Code&hellip;
+                    Coding via the API is permitted ONLY with Minimax-M2.1 You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model. Install Claude Code Refer to the Claude Code documentation for installation. All you need to do is&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -29,10 +29,17 @@
 <h2>Install Claude Code</h2>
 <ol>
 <li>Refer to the <a href="https://docs.claude.com/en/docs/claude-code/setup"><strong>Claude Code documentation</strong></a> for installation.</li>
-<li>Edit or create the Claude Code configuration file located at
+</ol>
+<p>All you need to do is EITHER</p>
+<p>Set three environment variables (Linux and WSL)</p>
+<p><code>export ANTHROPIC_BASE_URL="<a href="https://chat.ultimateai.org/">https://chat.ultimateai.org</a>"</code></p>
+<p><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code></p>
+<p><code>export API_TIMEOUT_MS="3000000"</code></p>
+<p> Or save settings in a config file (recommended for Windows)</p>
+<ol>
+<li> file located at<br>
 <ul>
-<li>~/.claude/settings.json (Linux NOT WSL)</li>
-<li>%userprofile%\.claude\settings.json (Windows, note: WSL is preferred over Windows)<br><br>Replace &lt;your API key&gt; with your API Key without &lt;&gt;;</li>
+<li>%userprofile%\.claude\settings.json (Windows, note: WSL is preferred over Windows)</li>
 </ul>
 </li>
 </ol>
@@ -41,11 +48,7 @@
 <p><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code></p>
 <p><code>    "ANTHROPIC_BASE_URL": <a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>,</code></p>
 <p><code>    "API_TIMEOUT_MS": "3000000"</code></p>
-<p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Alternatively (including WSL users set the environment variables);</p>
-<p><code>ANTHROPIC_BASE_URL="<a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>"</code></p>
-<p><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code></p>
-<p><code>API_TIMEOUT_MS="3000000"</code></p>
-<p><br><br><br>Save the config and run claude.exe.</p>
+<p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Run claude.exe.</p>
 <h2>Claude Code Extension for VS Code (Optional)</h2>
 <ul>
 <li>Install Claude Code as shown earlier.</li>
