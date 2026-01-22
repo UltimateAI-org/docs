@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-22T21:00:16+11:00</updated>
+    <updated>2026-01-23T09:55:22+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -33,24 +33,18 @@
 <li>Refer to the <a href="https://docs.claude.com/en/docs/claude-code/setup"><strong>Claude Code documentation</strong></a> for installation.</li>
 </ol>
 <p>All you need to do is EITHER</p>
-<p>Set three environment variables (Linux and WSL), consider adding to your profile to be persistent.</p>
-<p><code>export ANTHROPIC_BASE_URL="<a href="https://chat.ultimateai.org/">https://chat.ultimateai.org</a>"</code></p>
-<p><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code></p>
-<p><code>export API_TIMEOUT_MS="3000000"</code></p>
-<p>Or save settings in a config file (recommended for Windows)</p>
+<p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
+<p><code>export ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>export API_TIMEOUT_MS="3000000"</code></p>
+<p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
-<li> file located at<br>
+<li>File located at<br>
 <ul>
-<li>%userprofile%\.claude\settings.json (Windows, note: WSL is preferred over Windows)</li>
+<li>%userprofile%\.claude\settings.json (Windows)</li>
+<li>~/.claude/settings.json (Linux)</li>
 </ul>
 </li>
 </ol>
-<p><code>{</code></p>
-<p><code>  "env": {</code></p>
-<p><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code></p>
-<p><code>    "ANTHROPIC_BASE_URL": "<a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>",</code></p>
-<p><code>    "API_TIMEOUT_MS": "3000000"</code></p>
-<p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>  }</code><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
@@ -85,24 +79,18 @@
 <li>Refer to the <a href="https://docs.claude.com/en/docs/claude-code/setup"><strong>Claude Code documentation</strong></a> for installation.</li>
 </ol>
 <p>All you need to do is EITHER</p>
-<p>Set three environment variables (Linux and WSL), consider adding to your profile to be persistent.</p>
-<p><code>export ANTHROPIC_BASE_URL="<a href="https://chat.ultimateai.org/">https://chat.ultimateai.org</a>"</code></p>
-<p><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code></p>
-<p><code>export API_TIMEOUT_MS="3000000"</code></p>
-<p>Or save settings in a config file (recommended for Windows)</p>
+<p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
+<p><code>export ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>export API_TIMEOUT_MS="3000000"</code></p>
+<p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
-<li> file located at<br>
+<li>File located at<br>
 <ul>
-<li>%userprofile%\.claude\settings.json (Windows, note: WSL is preferred over Windows)</li>
+<li>%userprofile%\.claude\settings.json (Windows)</li>
+<li>~/.claude/settings.json (Linux)</li>
 </ul>
 </li>
 </ol>
-<p><code>{</code></p>
-<p><code>  "env": {</code></p>
-<p><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code></p>
-<p><code>    "ANTHROPIC_BASE_URL": "<a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>",</code></p>
-<p><code>    "API_TIMEOUT_MS": "3000000"</code></p>
-<p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>  }</code><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
@@ -120,7 +108,13 @@
 <p>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br><code>gemini</code><br><br>2. When asked "How would you like to authenticate for this project?" select <strong>Use Gemini API Key</strong> as shown below.</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-01-22-133009.png" alt="Gemini" width="1540" height="946" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-2xl.png 1920w"></figure><br><br>3. Select API Key.<br><br>That is it, you are now using gemini-cli with this service.</p>
 
-<p><strong>Troubleshooting:</strong><br>gemini-cli, if you have used gemini before, you may backup and remove the ~/.gemini/ folder to start fresh.</p>
+<p><strong>Troubleshooting:</strong></p>
+<p><strong>Claude:</strong> Check you do not already have a config file, if so edit\replace as per above;</p>
+<ul>
+<li>~/.claude/settings.json (Linux)</li>
+<li>%userprofile%\.claude\settings.json (Windows)</li>
+</ul>
+<p><strong>gemini-cli:</strong> If you have used gemini before, you may backup and remove the ~/.gemini/ folder to start fresh.</p>
 <p>That's It.</p>
             ]]>
         </content>
