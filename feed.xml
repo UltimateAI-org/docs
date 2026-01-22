@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-21T18:22:03+11:00</updated>
+    <updated>2026-01-22T11:38:11+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,13 +20,13 @@
         <updated>2026-01-19T21:23:54+11:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Coding via the API is permitted ONLY with Minimax-M2.1 You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model. Install Claude Code Refer to the Claude Code documentation for installation. All you need to do is&hellip;
+                    Claude Code \ VS Code with Claude Code and Gemini CLI are supported. Claude Code Refer to the Claude Code documentation for installation. All you need to do is EITHER Set three environment variables (Linux and WSL) export ANTHROPIC_BASE_URL="https://chat.ultimateai.org" export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;" export API_TIMEOUT_MS="3000000"&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2>Coding via the API is permitted ONLY with Minimax-M2.1<br><br>You may use your own agents or IDE environments, however ensure they are configured to use the MiniMax-M2.1 model.</h2>
-<h2>Install Claude Code</h2>
+                <h2>Claude Code \ VS Code with Claude Code and Gemini CLI are supported.</h2>
+<h2>Claude Code</h2>
 <ol>
 <li>Refer to the <a href="https://docs.claude.com/en/docs/claude-code/setup"><strong>Claude Code documentation</strong></a> for installation.</li>
 </ol>
@@ -46,7 +46,7 @@
 <p><code>{</code></p>
 <p><code>  "env": {</code></p>
 <p><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code></p>
-<p><code>    "ANTHROPIC_BASE_URL": <a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>,</code></p>
+<p><code>    "ANTHROPIC_BASE_URL": "<a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>",</code></p>
 <p><code>    "API_TIMEOUT_MS": "3000000"</code></p>
 <p><code>  },</code><br><br><code>  "model": "haiku"</code><br><br><code>}</code><br><br>Run claude.exe.</p>
 <h2>Claude Code Extension for VS Code (Optional)</h2>
@@ -55,6 +55,15 @@
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
 <p>That's it.<br><br><br><br></p>
+<h2>Gemini-CLI</h2>
+<p># Get started with Gemini CLI<br><br>Welcome to Gemini CLI! This guide will help you install, configure, and start<br>using the Gemini CLI to enhance your workflow right from your terminal.<br><br>## Quickstart: Install, authenticate, configure, and use Gemini CLI<br><br>Gemini CLI brings the power of advanced language models directly to your command<br>line interface. As an AI-powered assistant, Gemini CLI can help you with a<br>variety of tasks, from understanding and generating code to reviewing and<br>editing documents.<br><br>## Install<br><br>The standard method to install and run Gemini CLI uses `npm`:<br><br>```bash<br>npm install -g @google/gemini-cli<br>```</p>
+<p>## Configure<br><br>Set the following environment variables</p>
+<p><code>GEMINI_MODEL="MiniMax-M2.1"</code></p>
+<p><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code></p>
+<p><code>GEMINI_API_KEY="replace with your api key"</code></p>
+<p><br>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br>```bash<br>gemini<br>```<br><br>## Authenticate<br><br>1. Run Gemini CLI after installation:<br><br>   ```bash<br>   gemini<br>   ```<br><br>2. When asked "How would you like to authenticate for this project?" select **1.<br>   Login with Google**.<br><br>3. Select API Key.<br><br><br>## Use<br><br>Once installed and authenticated, you can start using Gemini CLI by issuing<br>commands and prompts in your terminal. Ask it to generate code, explain files,<br>and more.<br><br></p>
+<p> </p>
+<p> </p>
             ]]>
         </content>
     </entry>
