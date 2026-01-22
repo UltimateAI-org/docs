@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-23T09:55:22+11:00</updated>
+    <updated>2026-01-23T10:02:24+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -56,9 +56,7 @@
 <h2>Gemini-CLI</h2>
 <p>Get started with Gemini CLI<br><br>This guide will help you install, configure, and start using the Gemini CLI to enhance your workflow right from your terminal.<br><br>Gemini CLI brings the power of advanced language models directly to your command<br>line interface. As an AI-powered assistant, Gemini CLI can help you with a variety of tasks, from understanding and generating code to reviewing and editing documents.<br><br><strong>Install</strong><br>The standard method to install and run Gemini CLI uses `npm`:<br><br><code>npm install -g @google/gemini-cli</code></p>
 <p><strong>Configure</strong><br>Set the following environment variables.</p>
-<p><code>GEMINI_MODEL="MiniMax-M2.1"</code></p>
-<p><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code></p>
-<p><code>GEMINI_API_KEY="replace with your api key"</code></p>
+<p><code>GEMINI_MODEL="MiniMax-M2.1"</code><br><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code><br><code>GEMINI_API_KEY="replace with your api key"</code></p>
 <p>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br><code>gemini</code><br><br>2. When asked "How would you like to authenticate for this project?" select <strong>Use Gemini API Key</strong> as shown below.</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-01-22-133009.png" alt="Gemini" width="1540" height="946" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-2xl.png 1920w"></figure><br><br>3. Select API Key.<br><br>That is it, you are now using gemini-cli with this service.</p>
 
@@ -102,9 +100,7 @@
 <h2>Gemini-CLI</h2>
 <p>Get started with Gemini CLI<br><br>This guide will help you install, configure, and start using the Gemini CLI to enhance your workflow right from your terminal.<br><br>Gemini CLI brings the power of advanced language models directly to your command<br>line interface. As an AI-powered assistant, Gemini CLI can help you with a variety of tasks, from understanding and generating code to reviewing and editing documents.<br><br><strong>Install</strong><br>The standard method to install and run Gemini CLI uses `npm`:<br><br><code>npm install -g @google/gemini-cli</code></p>
 <p><strong>Configure</strong><br>Set the following environment variables.</p>
-<p><code>GEMINI_MODEL="MiniMax-M2.1"</code></p>
-<p><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code></p>
-<p><code>GEMINI_API_KEY="replace with your api key"</code></p>
+<p><code>GEMINI_MODEL="MiniMax-M2.1"</code><br><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code><br><code>GEMINI_API_KEY="replace with your api key"</code></p>
 <p>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br><code>gemini</code><br><br>2. When asked "How would you like to authenticate for this project?" select <strong>Use Gemini API Key</strong> as shown below.</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-01-22-133009.png" alt="Gemini" width="1540" height="946" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-2xl.png 1920w"></figure><br><br>3. Select API Key.<br><br>That is it, you are now using gemini-cli with this service.</p>
 
