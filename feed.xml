@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-23T10:02:24+11:00</updated>
+    <updated>2026-01-26T22:01:52+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -22,7 +22,6 @@
                 <![CDATA[
                     <h2>Supported Coding Environments</h2>
 <ul>
-<li>Gemini CLI</li>
 <li>Claude Code</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
@@ -52,13 +51,6 @@
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
 <p>That's it.</p>
-<hr>
-<h2>Gemini-CLI</h2>
-<p>Get started with Gemini CLI<br><br>This guide will help you install, configure, and start using the Gemini CLI to enhance your workflow right from your terminal.<br><br>Gemini CLI brings the power of advanced language models directly to your command<br>line interface. As an AI-powered assistant, Gemini CLI can help you with a variety of tasks, from understanding and generating code to reviewing and editing documents.<br><br><strong>Install</strong><br>The standard method to install and run Gemini CLI uses `npm`:<br><br><code>npm install -g @google/gemini-cli</code></p>
-<p><strong>Configure</strong><br>Set the following environment variables.</p>
-<p><code>GEMINI_MODEL="MiniMax-M2.1"</code><br><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code><br><code>GEMINI_API_KEY="replace with your api key"</code></p>
-<p>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br><code>gemini</code><br><br>2. When asked "How would you like to authenticate for this project?" select <strong>Use Gemini API Key</strong> as shown below.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-01-22-133009.png" alt="Gemini" width="1540" height="946" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-2xl.png 1920w"></figure><br><br>3. Select API Key.<br><br>That is it, you are now using gemini-cli with this service.</p>
 
                 ]]>
             </summary>
@@ -66,7 +58,6 @@
             <![CDATA[
                 <h2>Supported Coding Environments</h2>
 <ul>
-<li>Gemini CLI</li>
 <li>Claude Code</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
@@ -96,13 +87,6 @@
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
 <p>That's it.</p>
-<hr>
-<h2>Gemini-CLI</h2>
-<p>Get started with Gemini CLI<br><br>This guide will help you install, configure, and start using the Gemini CLI to enhance your workflow right from your terminal.<br><br>Gemini CLI brings the power of advanced language models directly to your command<br>line interface. As an AI-powered assistant, Gemini CLI can help you with a variety of tasks, from understanding and generating code to reviewing and editing documents.<br><br><strong>Install</strong><br>The standard method to install and run Gemini CLI uses `npm`:<br><br><code>npm install -g @google/gemini-cli</code></p>
-<p><strong>Configure</strong><br>Set the following environment variables.</p>
-<p><code>GEMINI_MODEL="MiniMax-M2.1"</code><br><code>GOOGLE_GEMINI_BASE_URL="https://chat.ultimateai.org"</code><br><code>GEMINI_API_KEY="replace with your api key"</code></p>
-<p>Once Gemini CLI is installed, run Gemini CLI from your command line:<br><br><code>gemini</code><br><br>2. When asked "How would you like to authenticate for this project?" select <strong>Use Gemini API Key</strong> as shown below.</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-01-22-133009.png" alt="Gemini" width="1540" height="946" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-01-22-133009-2xl.png 1920w"></figure><br><br>3. Select API Key.<br><br>That is it, you are now using gemini-cli with this service.</p>
 
 <p><strong>Troubleshooting:</strong></p>
 <p><strong>Claude:</strong> Check you do not already have a config file, if so edit\replace as per above;</p>
@@ -110,7 +94,6 @@
 <li>~/.claude/settings.json (Linux)</li>
 <li>%userprofile%\.claude\settings.json (Windows)</li>
 </ul>
-<p><strong>gemini-cli:</strong> If you have used gemini before, you may backup and remove the ~/.gemini/ folder to start fresh.</p>
 <p>That's It.</p>
             ]]>
         </content>
