@@ -3,12 +3,39 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-26T22:01:52+11:00</updated>
+    <updated>2026-01-31T20:53:04+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Clawdbot(Moltbot)</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/clawdbotmoltbot/"/>
+        <id>https://docs.ultimateai.org/clawdbotmoltbot/</id>
+
+        <updated>2026-01-31T20:53:04+11:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Yes ClawdBot\Moltbot is supported with the MiniMax-M2 model. We have a quick start script to get you going. However please exercise caution and follow best practices. VPS, Sandbox, VM and only grant required permissions. Due to the potentially high API costs, this service is ideal&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <pre>Yes ClawdBot\Moltbot is supported with the MiniMax-M2 model. We have a quick start script to get you going.  However please exercise caution and follow best practices.  VPS, Sandbox, VM and only grant required permissions.</pre>
+<p>Due to the potentially high API costs, this service is ideal giving you cost certainty.  We do ask that at this time, Moltbot is used with the MiniMax-M2 model due to the advanced agent and tool usage requirements.</p>
+<pre><a href="https://clawd.bot/@TrackLink" target="_blank" rel="noopener"><img loading="lazy" src="https://metrics.ultimateai.org/uploads/Screenshot-2026-01-30-140548.png" alt="" width="660" height="320" data-is-external-image="true"></a></pre>
+<pre>This script is intended to run BEFORE the installation of ClawdBot\MoltBot, it will download config files and ask for your API Key from UltimateAI then trigger the install.</pre>
+<p>Single command to get you going;</p>
+<pre><strong>curl -fsSL https://ultimateai.org/moltbot/setup.sh | tr -d '\r' | bash</strong></pre>
+<p><strong>TIPS: </strong></p>
+<p>* Clawdbot can be extremely dangerous, only for advanced users and do not expose to the inbound internet.<br>* Feel free to review the setup.sh<br>* Currently Telegram works a lot better than WhatsApp<br>* Recommend connecting Integrations via Zapier.  This can be done of the Free Plan.<br>* Extreme caution processing internal emails (numerous exploits attackers sending malicious emails to Moltbot)<br>* Go SLOW, each integration is a RISK<strong><br><br></strong>If you already have Clawbot\MoltBot installed you can review\copy the config files from here;<br><a href="https://ultimateai.org/moltbot/">https://ultimateai.org/moltbot/clawdbot.json</a><br><a href="https://ultimateai.org/moltbot/moltbot/models.json">https://ultimateai.org/moltbot/models.json</a> <br><br></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Coding</title>
         <author>
@@ -485,96 +512,6 @@ The AI action bar has three modes
 </li>
 <li>
 <p class="my-0"><strong>Children’s Educational Chatbot</strong><br><em>Prompt:</em><br>"Interact with young learners using simple language appropriate to their age. Explain complex concepts clearly and use games or storytelling to make learning enjoyable."<br><em>Purpose:</em> Optimizes interaction for younger audiences with engaging methods</p>
-</li>
-</ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Prompts (User)</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/prompts/"/>
-        <id>https://docs.ultimateai.org/prompts/</id>
-
-        <updated>2025-04-09T12:53:16+10:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    You can save your own PRIVATE prompts to be quickly accessed via "/" during the chat prompt. Note: Although PRIVATE, as always avoid uploading any sensitive or personal information, when using the cloud. You will also see "Global" prompts as saved by myself. How to;&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>You can save your own <strong>PRIVATE</strong> prompts to be quickly accessed via "/" during the chat prompt.<br><em><strong>Note:</strong> Although PRIVATE, as always avoid uploading any sensitive or personal information, when using the cloud.</em></p>
-<p>You will also see "Global" prompts as saved by myself.</p>
-<p><strong>How to;</strong></p>
-<p>Open the "Knowledge Studio" from the Left Panel<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/8/Screenshot-2025-04-09-115022.png" alt="" width="1738" height="229" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-xs.png 640w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-sm.png 768w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-md.png 1024w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-lg.png 1366w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-xl.png 1600w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-115022-2xl.png 1920w"></figure>
-<figure class="post__image">Select Prompts and then click the "+" on the far right to create a prompt<br><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/8/Screenshot-2025-04-09-122402-2.png" alt="" width="1437" height="172" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-xs.png 640w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-sm.png 768w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-md.png 1024w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-lg.png 1366w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-xl.png 1600w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-122402-2-2xl.png 1920w"></figure>
-<p>Complete the following information;</p>
-<ul>
-<li>
-<p>Title <em>eg: Summarise (unique name)</em></p>
-</li>
-<li>
-<p>Shortcut command  <em>eg: Summary</em></p>
-</li>
-<li>
-<p>Prompt Contents eg: Summarise this text {{CLIPBOARD}}</p>
-</li>
-</ul>
-<p>TIP: Refer later in this page for a list of supported {{VARIABLES}}</p>
-<p>You can then invoke the Prompt ShortCut at any-time via "/" and selecting your prompt as shown below;</p>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/8/Screenshot-2025-04-09-124503-2.png" alt="" width="1371" height="435" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-xs.png 640w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-sm.png 768w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-md.png 1024w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-lg.png 1366w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-xl.png 1600w ,https://docs.ultimateai.org/media/posts/8/responsive/Screenshot-2025-04-09-124503-2-2xl.png 1920w"></figure>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Advanced</strong></h2>
-<p>The below GitHub is an excellent source of information for all things PROMPT related</p>
-<ul>
-<li><a href="https://github.com/danielrosehill/awesome-llm-prompt-libraries">Awesome Prompt Library</a></li>
-</ul>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Supported Prompt Variables</strong></h2>
-<p>Variables may be used in prompts, the following variables are supported, please ensure to enclose the variable in double curly brackets {{}}</p>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Clipboard Content</strong></p>
-<ul class="marker:text-textOff list-disc">
-<li>
-<p class="my-0"><code>{{CLIPBOARD}}</code>: Automatically inserts the content of the clipboard into the prompt</p>
-</li>
-</ul>
-</li>
-<li>
-<p class="my-0"><strong>Date and Time</strong></p>
-<ul class="marker:text-textOff list-disc">
-<li>
-<p class="my-0"><code>{{CURRENT_DATE}}</code>: Inserts the current date</p>
-</li>
-<li>
-<p class="my-0"><code>{{CURRENT_DATETIME}}</code>: Inserts the current date and time</p>
-</li>
-<li>
-<p class="my-0"><code>{{CURRENT_TIME}}</code>: Inserts the current time</p>
-</li>
-<li>
-<p class="my-0"><code>{{CURRENT_TIMEZONE}}</code>: Inserts the current timezone</p>
-</li>
-<li>
-<p class="my-0"><code>{{CURRENT_WEEKDAY}}</code>: Inserts the current day of the week (e.g., Monday)</p>
-</li>
-</ul>
-</li>
-<li>
-<p class="my-0"><strong>User Information</strong></p>
-<ul class="marker:text-textOff list-disc">
-<li>
-<p class="my-0"><code>{{USER_NAME}}</code>: Inserts the name of the user</p>
-</li>
-<li>
-<p class="my-0"><code>{{USER_LANGUAGE}}</code>: Inserts the user's preferred language</p>
-</li>
-<li>
-<p class="my-0"><code>{{USER_LOCATION}}</code>: Inserts the user's location</p>
-</li>
-</ul>
 </li>
 </ol>
             ]]>
