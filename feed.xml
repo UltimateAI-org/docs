@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-01-31T20:53:04+11:00</updated>
+    <updated>2026-01-31T21:35:37+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -32,7 +32,7 @@
 <p>Single command to get you going;</p>
 <pre><strong>curl -fsSL https://ultimateai.org/moltbot/setup.sh | tr -d '\r' | bash</strong></pre>
 <p><strong>TIPS: </strong></p>
-<p>* Clawdbot can be extremely dangerous, only for advanced users and do not expose to the inbound internet.<br>* Feel free to review the setup.sh<br>* Currently Telegram works a lot better than WhatsApp<br>* Recommend connecting Integrations via Zapier.  This can be done of the Free Plan.<br>* Extreme caution processing internal emails (numerous exploits attackers sending malicious emails to Moltbot)<br>* Go SLOW, each integration is a RISK<strong><br><br></strong>If you already have Clawbot\MoltBot installed you can review\copy the config files from here;<br><a href="https://ultimateai.org/moltbot/">https://ultimateai.org/moltbot/clawdbot.json</a><br><a href="https://ultimateai.org/moltbot/moltbot/models.json">https://ultimateai.org/moltbot/models.json</a> <br><br></p>
+<p>* Clawdbot can be extremely dangerous, only for advanced users and do not expose to the inbound internet.<br>* Feel free to review the setup.sh<br>* Currently Telegram works a lot better than WhatsApp<br>* Recommend connecting Integrations via Zapier.  This can be done of the Free Plan.<br>* Extreme caution processing internal emails (numerous exploits attackers sending malicious emails to Moltbot)<br>* Go SLOW, each integration is a RISK<strong><br><br></strong>If you already have Clawbot\MoltBot installed you can review\copy the config files from here;<br><a href="https://ultimateai.org/moltbot/">https://ultimateai.org/moltbot/clawdbot.json</a><br><a href="https://ultimateai.org/moltbot/models.json">https://ultimateai.org/moltbot/models.json</a> <br><br></p>
             ]]>
         </content>
     </entry>
