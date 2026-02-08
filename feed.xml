@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-02-08T20:18:42+11:00</updated>
+    <updated>2026-02-08T20:42:30+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -30,7 +30,7 @@
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/21/Screenshot_8-2-2026_201722_openclaw.ai.jpeg" alt="" width="702" height="400" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-xs.jpeg 640w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-sm.jpeg 768w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-md.jpeg 1024w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-lg.jpeg 1366w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-xl.jpeg 1600w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-2xl.jpeg 1920w"></figure>
 <pre>This script is intended to run BEFORE the installation of ClawdBot\MoltBot, it will download config files and ask for your API Key from UltimateAI then trigger the install.<br><br>The install script has an option to preserve existing config and update models only</pre>
 <p>Single command to get you going;</p>
-<pre><strong>curl -fsSL https://ultimateai.org/moltbot/setup.sh | tr -d '\r' | bash</strong></pre>
+<pre><strong>curl -fsSL https://ultimateai.org/openclaw/setup.sh | tr -d '\r' | bash</strong></pre>
 <p><strong>TIPS: </strong></p>
 <p>* OpenClaw can be extremely dangerous, only for advanced users and do not expose to the inbound internet.<br>* Feel free to review the setup.sh<br>* Currently Telegram works a lot better than WhatsApp<br>* Recommend connecting Integrations via Zapier.  This can be done of the Free Plan.<br>* Extreme caution processing internal emails (numerous exploits attackers sending malicious emails to OpenClaw)<br>* Go SLOW, each integration is a RISK</p>
             ]]>
