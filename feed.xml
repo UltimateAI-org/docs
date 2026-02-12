@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-02-10T22:46:10+11:00</updated>
+    <updated>2026-02-13T08:35:16+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -26,7 +26,7 @@
         <content type="html">
             <![CDATA[
                 <pre>Yes OpenClaw (formerly ClawdBot\Moltbot) is supported with the MiniMax-M2 model. We have a quick start script to get you going.  However please exercise caution and follow best practices.  VPS, Sandbox, VM and only grant required permissions.</pre>
-<p>Due to the potentially high API costs, this service is ideal giving you cost certainty.  We do ask that at this time, Moltbot is used with the MiniMax-M2 model due to the advanced agent and tool usage requirements.<br>The install script has an option to preserve existing config and update models only.</p>
+<p>Due to the potentially high API costs, this service is ideal giving you cost certainty.  We do ask that at this time, Moltbot is used with the MiniMax-M2.5 model due to the advanced agent and tool usage requirements.<br>The install script has an option to preserve existing config and update models only.</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/21/Screenshot_8-2-2026_201722_openclaw.ai.jpeg" alt="" width="702" height="400" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-xs.jpeg 640w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-sm.jpeg 768w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-md.jpeg 1024w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-lg.jpeg 1366w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-xl.jpeg 1600w ,https://docs.ultimateai.org/media/posts/21/responsive/Screenshot_8-2-2026_201722_openclaw.ai-2xl.jpeg 1920w"></figure>
 <pre>This script is intended to run BEFORE the installation of ClawdBot\MoltBot, it will download config files and ask for your API Key from UltimateAI then trigger the install.<br><br>The install script has an option to preserve existing config and update models only</pre>
 <p>Single command to get you going;</p>
