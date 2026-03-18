@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-02-25T21:11:06+11:00</updated>
+    <updated>2026-03-18T18:56:56+11:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -57,6 +57,8 @@
 <li>Claude Code</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
+<li>Gemini CLI</li>
+<li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
 <h2>Installing Claude Code</h2>
@@ -83,6 +85,15 @@
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
 <p>That's it.</p>
+<hr>
+<h2>Installing Gemini CLI</h2>
+<ol>
+<li>Refer to the <a href="https://geminicli.com/docs/get-started/installation/">Gemini CLI installation, execution, and releases | Gemini CLI</a> Documentation for installation.</li>
+<li>Set the below environment variables;</li>
+</ol>
+<p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
+<p>Important when launching gemini append the MiniMax model, example;</p>
+<p><code>gemini –model MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
 
                 ]]>
             </summary>
@@ -93,6 +104,8 @@
 <li>Claude Code</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
+<li>Gemini CLI</li>
+<li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
 <h2>Installing Claude Code</h2>
@@ -119,14 +132,23 @@
 <li><span data-as="p">Install Claude Code Extension for VS Code</span><span aria-owns="rmiz-modal-57dadb484245" data-rmiz=""><span data-rmiz-content="found"><figure class=""><img loading="lazy"  src="https://filecdn.minimax.chat/public/6939e914-b090-4f4f-9c0b-1e394828c23c.jpg" width="80%" data-is-external-image="true"></figure></span><button type="button" aria-label="Expand image" data-rmiz-btn-zoom=""><svg aria-hidden="true" data-rmiz-btn-zoom-icon="true" fill="currentColor" focusable="false" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M 9 1 L 9 2 L 12.292969 2 L 2 12.292969 L 2 9 L 1 9 L 1 14 L 6 14 L 6 13 L 2.707031 13 L 13 2.707031 L 13 6 L 14 6 L 14 1 Z"></path></svg></button></span></li>
 </ul>
 <p>That's it.</p>
+<hr>
+<h2>Installing Gemini CLI</h2>
+<ol>
+<li>Refer to the <a href="https://geminicli.com/docs/get-started/installation/">Gemini CLI installation, execution, and releases | Gemini CLI</a> Documentation for installation.</li>
+<li>Set the below environment variables;</li>
+</ol>
+<p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
+<p>Important when launching gemini append the MiniMax model, example;</p>
+<p><code>gemini –model MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
 
 <p><strong>Troubleshooting:</strong></p>
 <p><strong>Claude:</strong> Check you do not already have a config file, if so edit\replace as per above;</p>
 <ul>
 <li>~/.claude/settings.json (Linux)</li>
 <li>%userprofile%\.claude\settings.json (Windows)</li>
+<li>ensure environment variable ANTHROPIC_API_TOKEN does <strong>NOT</strong> exist</li>
 </ul>
-<p>That's It.</p>
             ]]>
         </content>
     </entry>
