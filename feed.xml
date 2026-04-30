@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-03-18T18:56:56+11:00</updated>
+    <updated>2026-04-30T17:48:26+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -58,6 +58,7 @@
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
+<li>Codex (under beta by request)</li>
 <li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
@@ -105,6 +106,7 @@
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
+<li>Codex (under beta by request)</li>
 <li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
