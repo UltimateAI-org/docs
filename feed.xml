@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-04-30T17:48:26+10:00</updated>
+    <updated>2026-05-01T14:52:05+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -54,11 +54,11 @@
                 <![CDATA[
                     <h2>Supported Coding Environments</h2>
 <ul>
-<li>Claude Code</li>
+<li>Claude Code CLI</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
-<li>Codex (under beta by request)</li>
+<li>Codex Desktop (Experimental)</li>
 <li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
@@ -95,6 +95,19 @@
 <p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
 <p>Important when launching gemini append the MiniMax model, example;</p>
 <p><code>gemini –model MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
+<p> </p>
+<hr>
+<h2>Codex Desktop Client</h2>
+<ol>
+<li>Download and Install the Codex Desktop Client</li>
+<li>Select "Enter API Key"<figure class="post__image"><img loading="lazy"  style="font-size: inherit;" src="https://docs.ultimateai.org/media/posts/20/codex.png" alt="" width="838" height="753" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/codex-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-2xl.png 1920w"></figure></li>
+<li>Enter your API Key from UltimateAI (settings -&gt; account)<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-05-01-144437.png" alt="" width="836" height="719" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-2xl.png 1920w"></figure></li>
+<li>Add a single line to the <strong>top</strong> of your config.toml (hint: file-&gt; settings -&gt; open config)</li>
+</ol>
+<p>Add this single line to the top of your "config.toml" located in the ".codex" folder.</p>
+<p><code>openai_base_url = "https://chat.ultimateai.org/v1"</code></p>
+<p>Start a NEW chat\window.</p>
+<p><em>Note: For the first message, there may be a few re-tries while the protocol is negotiated.</em></p>
 
                 ]]>
             </summary>
@@ -102,11 +115,11 @@
             <![CDATA[
                 <h2>Supported Coding Environments</h2>
 <ul>
-<li>Claude Code</li>
+<li>Claude Code CLI</li>
 <li>VS Code with Claude Code Extension</li>
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
-<li>Codex (under beta by request)</li>
+<li>Codex Desktop (Experimental)</li>
 <li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
@@ -143,6 +156,19 @@
 <p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
 <p>Important when launching gemini append the MiniMax model, example;</p>
 <p><code>gemini –model MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
+<p> </p>
+<hr>
+<h2>Codex Desktop Client</h2>
+<ol>
+<li>Download and Install the Codex Desktop Client</li>
+<li>Select "Enter API Key"<figure class="post__image"><img loading="lazy"  style="font-size: inherit;" src="https://docs.ultimateai.org/media/posts/20/codex.png" alt="" width="838" height="753" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/codex-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/codex-2xl.png 1920w"></figure></li>
+<li>Enter your API Key from UltimateAI (settings -&gt; account)<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/20/Screenshot-2026-05-01-144437.png" alt="" width="836" height="719" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-xs.png 640w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-sm.png 768w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-md.png 1024w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-lg.png 1366w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-xl.png 1600w ,https://docs.ultimateai.org/media/posts/20/responsive/Screenshot-2026-05-01-144437-2xl.png 1920w"></figure></li>
+<li>Add a single line to the <strong>top</strong> of your config.toml (hint: file-&gt; settings -&gt; open config)</li>
+</ol>
+<p>Add this single line to the top of your "config.toml" located in the ".codex" folder.</p>
+<p><code>openai_base_url = "https://chat.ultimateai.org/v1"</code></p>
+<p>Start a NEW chat\window.</p>
+<p><em>Note: For the first message, there may be a few re-tries while the protocol is negotiated.</em></p>
 
 <p><strong>Troubleshooting:</strong></p>
 <p><strong>Claude:</strong> Check you do not already have a config file, if so edit\replace as per above;</p>
@@ -151,6 +177,7 @@
 <li>%userprofile%\.claude\settings.json (Windows)</li>
 <li>ensure environment variable ANTHROPIC_API_TOKEN does <strong>NOT</strong> exist</li>
 </ul>
+<p><strong>Codex:</strong> if you already had Codex Installed or Previously Installed, reboot after modifying the token in auth.json.   Closing\Restarting the client is not sufficient.</p>
             ]]>
         </content>
     </entry>
