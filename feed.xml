@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-05T22:13:29+10:00</updated>
+    <updated>2026-05-05T22:15:49+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,14 +20,15 @@
         <updated>2026-05-05T22:04:23+10:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Preinstall and configure within WSL "Claude Code". Ensure Claude Code is in the path and accessible. git clone https://github.com/nexu-io/open-design.git cd open-design corepack enable corepack pnpm --version # should print 10.33.2 pnpm install pnpm tools-dev run web # open the web URL printed by tools-dev, Claude&hellip;
+                    Preinstall and configure within WSL "Claude Code". (refer to our Claude Code guide, for instructions on how to Install\Configure Claude Code). Ensure Claude Code is in the path and accessible. Then run the following commands. git clone https://github.com/nexu-io/open-design.git cd open-design corepack enable corepack pnpm --version&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p> </p>
-<p>Preinstall and configure within WSL "Claude Code".</p>
+<p>Preinstall and configure within WSL "Claude Code". (<a href="https://docs.ultimateai.org/coding/" target="_blank" rel="noopener noreferrer">refer to our Claude Code guide, for instructions on how to Install\Configure Claude Code</a>).</p>
 <p>Ensure Claude Code is in the path and accessible.</p>
+<p>Then run the following commands.</p>
 <p><code>git clone https://github.com/nexu-io/open-design.git</code><br><code>cd open-design</code><br><code>corepack enable</code><br><code>corepack pnpm --version   # should print 10.33.2</code><br><code>pnpm install</code><br><code>pnpm tools-dev run web</code></p>
 <figure class="post__image"># open the web URL printed by tools-dev, Claude Code should be detected automatically.<br><br><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/22/Screenshot_5-5-2026_221212_127.0.0.1.jpeg" alt="" width="2345" height="1364" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-xs.jpeg 640w ,https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-sm.jpeg 768w ,https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-md.jpeg 1024w ,https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-lg.jpeg 1366w ,https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-xl.jpeg 1600w ,https://docs.ultimateai.org/media/posts/22/responsive/Screenshot_5-5-2026_221212_127.0.0.1-2xl.jpeg 1920w"></figure>
             ]]>
