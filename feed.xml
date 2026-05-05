@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-01T14:52:05+10:00</updated>
+    <updated>2026-05-05T20:49:09+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -374,15 +374,17 @@ The AI action bar has three modes
         <updated>2025-04-09T14:31:47+10:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Android App Installation The Android Application may be downloaded here HERE The iOS Application may be downloaded here HERE Windows App Installation Launch Edge and navigate to https://chat.ultimateai.org (NOT SAFE MODE) Look for the "App available" icon in the address bar (if the site supports PWA).
+                    Any Mobile Application compatible with OpenAI/Anthropic/Gemini endpoints is likely compatible with this service. Android App Installation The recommended Android Application may be downloaded here HERE this is FREE pre-configured clone of Conduit The recommended iOS Application may be downloaded here HERE this is FREE pre-configured&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2>Android App Installation</h2>
-<p>The Android Application may be downloaded here<br><a href="https://ultimateai.org/android">HERE</a></p>
+                <h2>Any Mobile Application compatible with OpenAI/Anthropic/Gemini endpoints is likely compatible with this service.<br><br>Android App Installation</h2>
+<p>The recommended Android Application may be downloaded here<br><a href="https://ultimateai.org/android">HERE</a> this is FREE pre-configured clone of <strong>Conduit</strong></p>
 <h2>iOS App Installation</h2>
-<p>The iOS Application may be downloaded here<br><a href="https://ultimateai.org/ios">HERE</a></p>
+<p>The recommended iOS Application may be downloaded here<br><a href="https://ultimateai.org/ios">HERE</a> this is FREE pre-configured clone of <strong>Open Relay</strong></p>
+<p>If you enjoy these applications, please support the Authors.</p>
+<hr>
 <h2>Windows App Installation</h2>
 <ol class="marker:text-textOff list-disc">
 <li>Launch Edge and navigate to <a href="http://chat.ultimateai.org">https://chat.ultimateai.org</a> <strong>(NOT SAFE MODE)</strong></li>
