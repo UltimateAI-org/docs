@@ -3,12 +3,43 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-05T22:16:32+10:00</updated>
+    <updated>2026-05-07T12:52:31+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Open Co-Work</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/open-co-work/"/>
+        <id>https://docs.ultimateai.org/open-co-work/</id>
+
+        <updated>2026-05-07T12:50:56+10:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Open-Co-Work, runs locally in an isolated sandbox. How to Install Download and install the latest release for Windows and Mac Open Co-Work Releases OpenSource Repo https://github.com/OpenCoworkAI/open-cowork/releases Once Installed configure the API provider as follows; Select "More Models" Enter your API key from "settings-&gt;account" Select "Anthropic"&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Open-Co-Work, runs locally in an isolated sandbox.</p>
+<p><strong>How to Install</strong></p>
+<p>Download and install the latest release for Windows and Mac <a href="https://github.com/OpenCoworkAI/open-cowork/releases" target="_blank" rel="noopener noreferrer">Open Co-Work Releases</a></p>
+<p>OpenSource Repo  https://github.com/OpenCoworkAI/open-cowork/releases</p>
+<p>Once Installed configure the API provider as follows;</p>
+<ul>
+<li>Select "More Models"</li>
+<li>Enter your API key from "settings-&gt;account"</li>
+<li>Select "Anthropic" as the protocol</li>
+<li>Base URL: https://chat.ultimateai.org</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/23/Screenshot-2026-05-07-124531.png" alt="" width="2284" height="1644" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-xs.png 640w ,https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-sm.png 768w ,https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-md.png 1024w ,https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-lg.png 1366w ,https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-xl.png 1600w ,https://docs.ultimateai.org/media/posts/23/responsive/Screenshot-2026-05-07-124531-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Claude Design (Open Design)</title>
         <author>
@@ -201,7 +232,9 @@
 <li>~/.claude/settings.json (Linux)</li>
 <li>%userprofile%\.claude\settings.json (Windows)</li>
 <li>ensure environment variable ANTHROPIC_API_TOKEN does <strong>NOT</strong> exist</li>
+<li>MAC: Add to path</li>
 </ul>
+<p><code>echo 'export PATH="$HOME/.local/bin:$PATH"' &gt;&gt; ~/.zshrc &amp;&amp; source ~/.zshrc</code></p>
 <p><strong>Codex:</strong> if you already had Codex Installed or Previously Installed, reboot after modifying the token in auth.json.   Closing\Restarting the client is not sufficient.</p>
             ]]>
         </content>
@@ -416,88 +449,6 @@ The AI action bar has three modes
 <li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Look for the </span><strong style="font-family: var(--editor-font-family); font-size: inherit;">"App available"</strong><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> icon in the address bar (if the site supports PWA). Click it and select </span><strong style="font-family: var(--editor-font-family); font-size: inherit;">Install</strong><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">, or:</span></li>
 <li>Click the <strong>three-dot menu</strong> (Settings and More) in the top-right corner.</li>
 <li>Select <strong>Apps</strong> &gt; <strong>Install this site as an app</strong>.</li>
-</ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Prompts (System)  aka: Custom Instructions</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/prompts-system/"/>
-        <id>https://docs.ultimateai.org/prompts-system/</id>
-
-        <updated>2025-04-09T13:59:08+10:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    ** ADVANCED USERS ONLY ** System prompt (aka: Custom Instructions) can be applied as follows; Think of system prompts as the backbone of your AI's behaviour and output. While user prompts focus on specific tasks, system prompts set the overall framework for how your AI&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2><strong>** ADVANCED USERS ONLY **</strong></h2>
-<p>System prompt (aka: Custom Instructions) can be applied as follows;</p>
-<ul>
-<li>Agents</li>
-<li>Folders (aka. Projects), will apply to all chats within the folder.</li>
-<li>Settings -&gt; General</li>
-</ul>
-<h2><strong>Tips on writing a good SYSTEM prompt.</strong></h2>
-<p>Think of system prompts as the backbone of your AI's behaviour and output. While user prompts focus on specific tasks, system prompts set the overall framework for how your AI solution operates across all interactions. </p>
-<p>Let's dive into some key strategies for writing solid system prompts:</p>
-<ul role="list">
-<li><strong>Define the AI's role clearly: </strong>Specify the exact role your AI should play, such as a strategic business analyst or a customer segmentation expert. This sets the expertise level and perspective for all interactions.</li>
-<li><strong>Establish the context</strong>: Provide a clear understanding of the business environment, industry, and typical scenarios the AI will encounter. This ensures the AI can generate relevant and appropriate responses.</li>
-<li><strong>Set the tone and communication style</strong>: Define the overall tone for all outputs, such as professional, analytical, or consultative. This maintains consistency across all interactions and aligns with your brand voice.</li>
-<li><strong>Outline ethical guidelines and compliance standards</strong>: Clearly state any legal, ethical, or company-specific guidelines that must be followed. This safeguards against potential issues and maintains professional standards.</li>
-<li><strong>Define the scope of knowledge</strong>: Specify the areas of expertise the AI should draw from, such as sales methodologies, market trends, or data analysis techniques.</li>
-<li><strong>Establish output standards</strong>: Set universal parameters for the AI's responses, such as the level of detail expected, use of supporting data, or inclusion of actionable recommendations.</li>
-<li><strong>Specify data handling protocols</strong>: Provide clear instructions on how to handle and reference sensitive information. This protects privacy and maintains data integrity in all analyses.</li>
-<li><strong>Set problem-solving approaches</strong>: Guide the AI on how to approach complex problems, whether it's through data-driven analysis, comparative studies, or strategic frameworks.</li>
-<li><strong>Define collaboration parameters</strong>: If the AI will be part of a larger team or process, specify how it should interact with other tools or team members.</li>
-<li><strong>Establish language preferences</strong>: Specify preferred terminology, industry jargon to use or avoid, and any company-specific language. This ensures the AI's language aligns with your professional standards.</li>
-<li><strong>Guide on handling uncertainty</strong>: Provide instructions on how the AI should handle scenarios where it lacks sufficient information or faces ambiguity.</li>
-<li><strong>Set continuous improvement guidelines</strong>: Establish protocols for how the AI should learn from interactions and refine its approach over time.</li>
-</ul>
-<p>These guidelines will help you create a system prompt that acts as a comprehensive playbook for your AI. Whether it's analyzing market trends, segmenting customers, or providing strategic recommendations, your AI will consistently deliver high-quality, relevant, and actionable insights that drive your sales goals forward.<br><br></p>
-<h2 class="mb-2 mt-6 text-lg font-[500] first:mt-3">Good Examples of System Prompts</h2>
-<p class="my-0">System prompts are foundational instructions that define the role, tone, behaviour, and constraints for an AI model. Below are several examples of effective system prompts, along with explanations of their structure and use:</p>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Role-Based System Prompts</strong></h2>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Linux Terminal Emulator</strong><br><em>Prompt:</em><br>"You are a Linux terminal. Respond only with terminal output inside a unique code block. Do not provide explanations or execute commands unless instructed."<br><em>Purpose:</em> Guides the AI to emulate a Linux terminal, ensuring responses are formatted as code and avoiding unnecessary commentary</p>
-</li>
-<li>
-<p class="my-0"><strong>Solar System Expert</strong><br><em>Prompt:</em><br>"You are an expert on the solar system. Answer questions concisely and informatively."<br><em>Purpose:</em> Assigns expertise to the AI and specifies concise, topic-focused responses</p>
-</li>
-<li>
-<p class="my-0"><strong>Blockchain Development Tutor</strong><br><em>Prompt:</em><br>"You are a Blockchain Development Tutor. Guide users from zero knowledge to understanding blockchain fundamentals and building basic projects. Be patient, clear, and thorough in your explanations."<br><em>Purpose:</em> Tailors the AI for educational purposes with a focus on blockchain technology</p>
-</li>
-</ol>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Behavioral and Tone Prompts</strong></h2>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Friendly Biology Teacher</strong><br><em>Prompt:</em><br>"You are an enthusiastic biology teacher named Thomas. Communicate in a friendly and informative style while sharing your passion for nature."<br><em>Purpose:</em> Ensures consistent tone and persona for engaging educational interactions</p>
-</li>
-<li>
-<p class="my-0"><strong>Customer Service Representative</strong><br><em>Prompt:</em><br>"You are an experienced customer service representative. Always maintain a polite and professional tone."<br><em>Purpose:</em> Defines the AI's role and tone for customer-facing scenarios</p>
-</li>
-</ol>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Creative Writing Prompts</strong></h2>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Storytelling Assistant</strong><br><em>Prompt:</em><br>"When generating stories or poems, use figurative language such as metaphors, similes, and personification to create vivid imagery. Incorporate literary techniques like symbolism and irony for depth."<br><em>Purpose:</em> Encourages creative outputs with layered meaning<span class="whitespace-nowrap"><a target="_blank" rel="nofollow noopener" class=" mr-[2px] citation ml-xs inline" data-state="closed" aria-label="Guiding the AI Model with System Prompts - SUSE Documentation" href="https://documentation.suse.com/suse-ai/1.0/html/AI-system-prompts/index.html"><span class="relative select-none align-middle undefined -top-px default font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark"><span class="hover:bg-super dark:hover:bg-superDark dark:hover:text-backgroundDark min-w-[1rem] rounded-[0.3125rem] px-[0.3rem] text-center align-middle font-mono text-[0.6rem] tabular-nums hover:text-white py-[0.1875rem] border-borderMain/50 ring-borderMain/50 divide-borderMain/50 dark:divide-borderMainDark/50  dark:ring-borderMainDark/50 dark:border-borderMainDark/50 bg-offsetPlus dark:bg-offsetPlusDark">3</span></span></a>.</span></p>
-</li>
-</ol>
-<h2 class="mb-xs mt-5 text-base font-[525] first:mt-3"><strong>Context-Specific Prompts</strong></h2>
-<ol class="marker:text-textOff list-decimal">
-<li>
-<p class="my-0"><strong>Travel Agent</strong><br><em>Prompt:</em><br>"You are a travel agent recommending vacation destinations. Provide suggestions in less than 150 words tailored to adventure travelers."<br><em>Purpose:</em> Combines role definition with task constraints for targeted recommendations</p>
-</li>
-<li>
-<p class="my-0"><strong>Children’s Educational Chatbot</strong><br><em>Prompt:</em><br>"Interact with young learners using simple language appropriate to their age. Explain complex concepts clearly and use games or storytelling to make learning enjoyable."<br><em>Purpose:</em> Optimizes interaction for younger audiences with engaging methods</p>
-</li>
 </ol>
             ]]>
         </content>
