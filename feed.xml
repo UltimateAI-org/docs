@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-12T10:24:30+10:00</updated>
+    <updated>2026-05-12T12:11:00+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2026-05-10T18:16:02+10:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Gateway: https://chat.ultimateai.org (note: without /v1/messages) Model: claude-sonnet-6 (specify the model in this format)
+                    Gateway: https://chat.ultimateai.org (note: without /v1/messages) Model: claude-sonnet-4-6 (specify the model in this format, not 4.6)
                 ]]>
             </summary>
         <content type="html">
@@ -34,9 +34,8 @@
 <p>Gateway: <a href="https://chat.ultimateai.org">https://chat.ultimateai.org</a>  (note: without /v1/messages)</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/24/Screenshot-2026-05-10-182042.png" alt="" width="654" height="1176" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-xs.png 640w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-sm.png 768w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-md.png 1024w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-lg.png 1366w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-xl.png 1600w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182042-2xl.png 1920w"></figure>
 <ul>
-<li>Model: claude-sonnet-6 (specify the model in this format)</li>
+<li>Model: <strong>claude-sonnet-4-6</strong> (specify the model in this format, not 4.6)</li>
 </ul>
-<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/24/Screenshot-2026-05-10-182436.png" alt="" width="608" height="616" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-xs.png 640w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-sm.png 768w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-md.png 1024w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-lg.png 1366w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-xl.png 1600w ,https://docs.ultimateai.org/media/posts/24/responsive/Screenshot-2026-05-10-182436-2xl.png 1920w"></figure>
             ]]>
         </content>
     </entry>
