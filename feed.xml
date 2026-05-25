@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-12T12:11:00+10:00</updated>
+    <updated>2026-05-25T22:28:08+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -145,7 +145,6 @@
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
 <li>Codex Desktop (Experimental)</li>
-<li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
 <h2>Installing Claude Code</h2>
@@ -154,7 +153,7 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>export ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>export API_TIMEOUT_MS="3000000"</code></p>
+<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"</code></p>
 <p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
 <li>File located at<br>
@@ -164,7 +163,7 @@
 </ul>
 </li>
 </ol>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>  }</code><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"<br>   }<br></code><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
@@ -209,7 +208,6 @@
 <li>Antigravity with Claude Code Extension</li>
 <li>Gemini CLI</li>
 <li>Codex Desktop (Experimental)</li>
-<li>You may use other tools with the MiniMax series of coding models only.</li>
 </ul>
 <hr>
 <h2>Installing Claude Code</h2>
@@ -218,7 +216,7 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>export ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>export ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>export API_TIMEOUT_MS="3000000"</code></p>
+<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"</code></p>
 <p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
 <li>File located at<br>
@@ -228,7 +226,7 @@
 </ul>
 </li>
 </ol>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>  }</code><br><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"<br>   }<br></code><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
