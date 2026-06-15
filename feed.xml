@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-06-15T22:27:31+10:00</updated>
+    <updated>2026-06-15T22:33:32+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2026-06-15T22:24:14+10:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Click the COG top-right to enter "Settings" Select "Model" and change the provider from "Custom" to "Api.ultimateai.org" You may also select a model.
+                    Select "I have an API Key" bottom right Select "Local / Custom" endpoint Enter the endpoint as "https://api.ultimateai.org/v1" Enter your API key and press "Connect" Click the COG top-right to enter "Settings" Select "Model" and change the provider from "Custom" to "Api.ultimateai.org" You may also&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -29,10 +29,17 @@
 <ol>
 <li>Visit Hermes and download and run the Desktop Client<br><a href="https://hermes-agent.nousresearch.com/" target="_blank" rel="noopener noreferrer">https://hermes-agent.nousresearch.com/</a></li>
 </ol>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/25/h2.png" alt="" width="1400" height="512" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/25/responsive/h2-xs.png 640w ,https://docs.ultimateai.org/media/posts/25/responsive/h2-sm.png 768w ,https://docs.ultimateai.org/media/posts/25/responsive/h2-md.png 1024w ,https://docs.ultimateai.org/media/posts/25/responsive/h2-lg.png 1366w ,https://docs.ultimateai.org/media/posts/25/responsive/h2-xl.png 1600w ,https://docs.ultimateai.org/media/posts/25/responsive/h2-2xl.png 1920w"></figure>
+<p>Select "I have an API Key" bottom right</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/25/h2b.png" alt="" width="1470" height="524" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/25/responsive/h2b-xs.png 640w ,https://docs.ultimateai.org/media/posts/25/responsive/h2b-sm.png 768w ,https://docs.ultimateai.org/media/posts/25/responsive/h2b-md.png 1024w ,https://docs.ultimateai.org/media/posts/25/responsive/h2b-lg.png 1366w ,https://docs.ultimateai.org/media/posts/25/responsive/h2b-xl.png 1600w ,https://docs.ultimateai.org/media/posts/25/responsive/h2b-2xl.png 1920w"></figure>
+<p>Select "Local / Custom" endpoint</p>
+<p>Enter the endpoint as "https://api.ultimateai.org/v1"<br>Enter your API key and press "Connect"</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/25/h3.png" alt="" width="1462" height="1310" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/25/responsive/h3-xs.png 640w ,https://docs.ultimateai.org/media/posts/25/responsive/h3-sm.png 768w ,https://docs.ultimateai.org/media/posts/25/responsive/h3-md.png 1024w ,https://docs.ultimateai.org/media/posts/25/responsive/h3-lg.png 1366w ,https://docs.ultimateai.org/media/posts/25/responsive/h3-xl.png 1600w ,https://docs.ultimateai.org/media/posts/25/responsive/h3-2xl.png 1920w"></figure>
 <h1><span style="color: #e03e2d;">Important</span></h1>
 <p>Click the COG top-right to enter "Settings"</p>
 <p>Select "Model" and change the provider from "Custom" to "Api.ultimateai.org"</p>
 <p>You may also select a model.</p>
+<p>Takes Effect for the NEXT session</p>
 <figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/25/h4.png" alt="" width="2632" height="310" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/25/responsive/h4-xs.png 640w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-sm.png 768w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-md.png 1024w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-lg.png 1366w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-xl.png 1600w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-2xl.png 1920w"></figure>
             ]]>
         </content>
