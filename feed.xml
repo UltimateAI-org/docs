@@ -3,12 +3,40 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-05-25T22:28:08+10:00</updated>
+    <updated>2026-06-15T22:24:49+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
     <id>https://docs.ultimateai.org</id>
 
+    <entry>
+        <title>Hermes</title>
+        <author>
+            <name>Tim</name>
+        </author>
+        <link href="https://docs.ultimateai.org/hermes/"/>
+        <id>https://docs.ultimateai.org/hermes/</id>
+
+        <updated>2026-06-15T22:24:14+10:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Click the COG top-right to enter "Settings" Select "Model" and change the provider from "Custom" to "Api.ultimateai.org" You may also select a model.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p> </p>
+<ol>
+<li>Visit Hermes and download and run the Desktop Client<br><a href="https://hermes-agent.nousresearch.com/" target="_blank" rel="noopener noreferrer">https://hermes-agent.nousresearch.com/</a></li>
+</ol>
+<h1><span style="color: #e03e2d;">Important</span></h1>
+<p>Click the COG top-right to enter "Settings"</p>
+<p>Select "Model" and change the provider from "Custom" to "Api.ultimateai.org"</p>
+<p>You may also select a model.</p>
+<figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/25/h4.png" alt="" width="2632" height="310" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/25/responsive/h4-xs.png 640w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-sm.png 768w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-md.png 1024w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-lg.png 1366w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-xl.png 1600w ,https://docs.ultimateai.org/media/posts/25/responsive/h4-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Claude for Microsoft O365  </title>
         <author>
@@ -428,30 +456,6 @@ The AI action bar has three modes
 <li><figure class="post__image"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/13/WebPage.png" alt="" width="302" height="196" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/13/responsive/WebPage-xs.png 640w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-sm.png 768w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-md.png 1024w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-lg.png 1366w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-xl.png 1600w ,https://docs.ultimateai.org/media/posts/13/responsive/WebPage-2xl.png 1920w"></figure></li>
 <li>Short delay while the video transcription \ web-site is added.</li>
 </ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Obsidian</title>
-        <author>
-            <name>Tim</name>
-        </author>
-        <link href="https://docs.ultimateai.org/obsidian/"/>
-        <id>https://docs.ultimateai.org/obsidian/</id>
-
-        <updated>2025-04-09T15:45:47+10:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    Obsidian (ObsidianAITools) To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: https://youtu.be/WmxQMMLIIwo. To&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h1 class="align-center"><figure class="post__image align-center"><img loading="lazy"  src="https://docs.ultimateai.org/media/posts/12/Obsidian-FavIcon.png" alt="" width="36" height="36" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-xs.png 640w ,https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-sm.png 768w ,https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-md.png 1024w ,https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-lg.png 1366w ,https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-xl.png 1600w ,https://docs.ultimateai.org/media/posts/12/responsive/Obsidian-FavIcon-2xl.png 1920w"></figure>Obsidian (ObsidianAITools)</h1>
-<p>To help you get started, in partnership with ObsidianAITools, we’ve put together a quick video guide that walks you through the setup process and tips on maximising the use of these AI tools in your Vault. You can watch it here: <a href="https://youtu.be/WmxQMMLIIwo">https://youtu.be/WmxQMMLIIwo</a>.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube-nocookie.com/embed/WmxQMMLIIwo" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h2>Obsidian Integration Instructions</h2>
-<p>To get started visit <a href="https://obsidianaitools.com/how-to-setup-obsidian-ai-tools">https://obsidianaitools.com/how-to-setup-obsidian-ai-tools</a></p>
             ]]>
         </content>
     </entry>
