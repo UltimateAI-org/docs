@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-06-18T21:06:38+10:00</updated>
+    <updated>2026-06-18T21:35:15+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -205,7 +205,17 @@
 <h5>Example 3 (MiniMax)</h5>
 <p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"</code><br><code>   }<br></code><code>}</code></p>
 <h5>Example 4 (ZAI/GLM)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
+  }
+}</code></pre>
 <p><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
@@ -275,7 +285,17 @@
 <h5>Example 3 (MiniMax)</h5>
 <p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"</code><br><code>   }<br></code><code>}</code></p>
 <h5>Example 4 (ZAI/GLM)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
+  }
+}</code></pre>
 <p><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
