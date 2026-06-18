@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-06-15T22:33:32+10:00</updated>
+    <updated>2026-06-18T21:06:38+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -188,7 +188,7 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"</code></p>
+<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1"</code></p>
 <p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
 <li>File located at<br>
@@ -198,7 +198,15 @@
 </ul>
 </li>
 </ol>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"<br>   }<br></code><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<h5>Example 1 (coding-latest)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 2 (Using Anthropic Models)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 3 (MiniMax)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 4 (ZAI/GLM)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"</code><br><code>   }<br></code><code>}</code></p>
+<p><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
@@ -212,9 +220,8 @@
 <li>Refer to the <a href="https://geminicli.com/docs/get-started/installation/">Gemini CLI installation, execution, and releases | Gemini CLI</a> Documentation for installation.</li>
 <li>Set the below environment variables;</li>
 </ol>
-<p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
-<p>Important when launching gemini append the MiniMax model, example;</p>
-<p><code>gemini –m MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
+<p><code>GOOGLE_GEMINI_BASE_URL=https://api.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
+<p><code></code><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
 <p> </p>
 <hr>
 <h2>Codex Desktop Client (same config for codex CLI)</h2>
@@ -225,7 +232,7 @@
 <li>Add a single line to the <strong>top</strong> of your config.toml (hint: file-&gt; settings -&gt; open config)</li>
 </ol>
 <p>Add this single line to the top of your "<strong>~/.codex/config.toml</strong>"</p>
-<p><code>openai_base_url = "https://chat.ultimateai.org/v1"</code></p>
+<p><code>openai_base_url = "https://api.ultimateai.org/v1"</code></p>
 <p>Start a NEW chat\window.</p>
 <p><em>Note: For the first message, there may be a few re-tries while the protocol is negotiated.</em></p>
 <p>Troubleshooting: If you already had Codex configured with another provider and you were not prompted for an API key, also edit "<strong>~/.codex/auth.json</strong>" then restart.</p>
@@ -251,7 +258,7 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"</code></p>
+<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1"</code></p>
 <p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
 <ol>
 <li>File located at<br>
@@ -261,7 +268,15 @@
 </ul>
 </li>
 </ol>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://chat.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"<br>   }<br></code><code>}</code><br><br>Run <strong>claude.exe</strong>.</p>
+<h5>Example 1 (coding-latest)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 2 (Using Anthropic Models)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 3 (MiniMax)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"</code><br><code>   }<br></code><code>}</code></p>
+<h5>Example 4 (ZAI/GLM)</h5>
+<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"</code><br><code>   }<br></code><code>}</code></p>
+<p><br>Run <strong>claude.exe</strong>.</p>
 <hr>
 <h2>Claude Code Extension for VS Code and Antigravity</h2>
 <ul>
@@ -275,9 +290,8 @@
 <li>Refer to the <a href="https://geminicli.com/docs/get-started/installation/">Gemini CLI installation, execution, and releases | Gemini CLI</a> Documentation for installation.</li>
 <li>Set the below environment variables;</li>
 </ol>
-<p><code>GOOGLE_GEMINI_BASE_URL=https://chat.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
-<p>Important when launching gemini append the MiniMax model, example;</p>
-<p><code>gemini –m MiniMax-M2.7</code><br><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
+<p><code>GOOGLE_GEMINI_BASE_URL=https://api.ultimateai.org</code><br><code>GOOGLE_GENAI_USE_VERTEXAI=false</code><br><code>GEMINI_API_KEY=&lt;your api key&gt;</code></p>
+<p><code></code><br>Failure to do this, will result in degraded performance, as Gemini client will try and connect back to Google.  MiniMax usage is not metered and supports all tool use.</p>
 <p> </p>
 <hr>
 <h2>Codex Desktop Client (same config for codex CLI)</h2>
@@ -288,7 +302,7 @@
 <li>Add a single line to the <strong>top</strong> of your config.toml (hint: file-&gt; settings -&gt; open config)</li>
 </ol>
 <p>Add this single line to the top of your "<strong>~/.codex/config.toml</strong>"</p>
-<p><code>openai_base_url = "https://chat.ultimateai.org/v1"</code></p>
+<p><code>openai_base_url = "https://api.ultimateai.org/v1"</code></p>
 <p>Start a NEW chat\window.</p>
 <p><em>Note: For the first message, there may be a few re-tries while the protocol is negotiated.</em></p>
 <p>Troubleshooting: If you already had Codex configured with another provider and you were not prompted for an API key, also edit "<strong>~/.codex/auth.json</strong>" then restart.</p>
