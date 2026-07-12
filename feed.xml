@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-06-18T21:37:28+10:00</updated>
+    <updated>2026-07-12T22:47:45+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -188,8 +188,13 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1"</code></p>
-<p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
+<pre class="language-json"><code>ANTHROPIC_BASE_URL="https://api.ultimateai.org"
+ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"
+API_TIMEOUT_MS="3000000"
+CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW="200000"
+CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
+<p><strong>Or </strong>save settings in a config file (<strong>recommended</strong>)</p>
 <ol>
 <li>File located at<br>
 <ul>
@@ -199,9 +204,28 @@
 </li>
 </ol>
 <h5>Example 1 (coding-latest)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"
+  }
+}</code></pre>
 <h5>Example 2 (Using Anthropic Models)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1"
+  }
+}</code></pre>
 <h5>Example 3 (MiniMax)</h5>
 <pre class="language-json"><code>{
   "env": {
@@ -209,6 +233,7 @@
     "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"
@@ -221,6 +246,7 @@
     "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
@@ -278,8 +304,13 @@
 </ol>
 <p>All you need to do is EITHER</p>
 <p>Set three environment variables (Linux and WSL), recommend adding to your profile to be persistent.</p>
-<p><code>ANTHROPIC_BASE_URL="https://chat.ultimateai.org"</code><br><code>ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"</code><br><code>API_TIMEOUT_MS="3000000"<br>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1"</code></p>
-<p><strong>Or </strong>save settings in a config file (recommended for Windows)</p>
+<pre class="language-json"><code>ANTHROPIC_BASE_URL="https://api.ultimateai.org"
+ANTHROPIC_AUTH_TOKEN="&lt;your api key&gt;"
+API_TIMEOUT_MS="3000000"
+CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW="200000"
+CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
+<p><strong>Or </strong>save settings in a config file (<strong>recommended</strong>)</p>
 <ol>
 <li>File located at<br>
 <ul>
@@ -289,9 +320,28 @@
 </li>
 </ol>
 <h5>Example 1 (coding-latest)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000",</code><code></code><br><code>    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",</code><br><code>    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",</code><br><code>    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "coding-latest",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "coding-latest",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "coding-latest"
+  }
+}</code></pre>
 <h5>Example 2 (Using Anthropic Models)</h5>
-<p><code>{</code><br><code>  "env": {</code><br><code>    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",</code><br><code>    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",</code><br><code>    "API_TIMEOUT_MS": "3000000"</code><br><code>   }<br></code><code>}</code></p>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1"
+  }
+}</code></pre>
 <h5>Example 3 (MiniMax)</h5>
 <pre class="language-json"><code>{
   "env": {
@@ -299,6 +349,7 @@
     "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax-latest",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax-latest",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax-latest"
@@ -311,6 +362,7 @@
     "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-air",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-latest",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
