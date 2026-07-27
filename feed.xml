@@ -3,7 +3,7 @@
     <title>UltimateAI</title>
     <link href="https://docs.ultimateai.org/feed.xml" rel="self" />
     <link href="https://docs.ultimateai.org" />
-    <updated>2026-07-27T20:58:46+10:00</updated>
+    <updated>2026-07-27T21:03:20+10:00</updated>
     <author>
         <name>Tim</name>
     </author>
@@ -252,7 +252,7 @@ CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
   }
 }</code></pre>
-<h5>Example 4 (Qwen)</h5>
+<h5>Example 5 (Qwen)</h5>
 <pre class="language-json"><code>{
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
@@ -263,6 +263,19 @@ CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen-flash",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen-plus",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen-max"
+  }
+}</code></pre>
+<h5>Example 6 (Kimi)</h5>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "kimi-code",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "kimi-code",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "kimi-latest"
   }
 }</code></pre>
 <p><br>Run <strong>claude.exe</strong>.</p>
@@ -381,7 +394,7 @@ CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-latest"
   }
 }</code></pre>
-<h5>Example 4 (Qwen)</h5>
+<h5>Example 5 (Qwen)</h5>
 <pre class="language-json"><code>{
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
@@ -392,6 +405,19 @@ CLAUDE_CODE_DISABLE_1M_CONTEXT="1"</code></pre>
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen-flash",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen-plus",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen-max"
+  }
+}</code></pre>
+<h5>Example 6 (Kimi)</h5>
+<pre class="language-json"><code>{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "&lt;your API key&gt;",
+    "ANTHROPIC_BASE_URL": "https://api.ultimateai.org",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "kimi-code",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "kimi-code",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "kimi-latest"
   }
 }</code></pre>
 <p><br>Run <strong>claude.exe</strong>.</p>
